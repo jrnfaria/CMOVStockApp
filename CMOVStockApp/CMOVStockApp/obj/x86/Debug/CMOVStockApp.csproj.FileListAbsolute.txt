@@ -235,7 +235,6 @@ C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\b
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.csprojResolveAssemblyReference.cache
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.g.i.cs
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.g.cs
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\MainPage.g.i.cs
@@ -439,3 +438,11 @@ C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\o
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.g.cs
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xaml
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Shares.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.i.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xaml
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Newtonsoft.Json.dll
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Newtonsoft.Json.dll

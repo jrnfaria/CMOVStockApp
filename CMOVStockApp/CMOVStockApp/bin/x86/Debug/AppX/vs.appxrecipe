@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-27T15:54:56.557</Modified>
+      <Modified>2015-11-28T19:35:46.185</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.exe">
       <PackagePath>CMOVStockApp.exe</PackagePath>
-      <Modified>2015-11-27T15:54:56.554</Modified>
+      <Modified>2015-11-28T19:35:46.184</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.xr.xml">
       <PackagePath>CMOVStockApp.xr.xml</PackagePath>
-      <Modified>2015-11-27T15:54:55.218</Modified>
+      <Modified>2015-11-28T19:32:04.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\entrypoint\CMOVStockApp.exe">
       <PackagePath>entrypoint\CMOVStockApp.exe</PackagePath>
-      <Modified>2015-11-27T15:54:55.460</Modified>
+      <Modified>2015-11-28T19:35:43.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -104,13 +104,17 @@
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
       <Modified>2015-09-16T18:10:43.171</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-11-15T17:22:49.218</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2015-11-27T11:53:10.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-27T15:54:55.974</Modified>
+      <Modified>2015-11-28T19:35:45.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

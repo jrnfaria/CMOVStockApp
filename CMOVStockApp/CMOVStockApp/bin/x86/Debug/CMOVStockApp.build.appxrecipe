@@ -78,6 +78,9 @@
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

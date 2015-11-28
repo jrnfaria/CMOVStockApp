@@ -132,17 +132,27 @@ namespace CMOVStockApp.CMOVStockApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "CMOVStockApp.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "CMOVStockApp.Views.Menu";
+            _typeNameTable[4] = "CMOVStockApp.Views.Shares";
+            _typeNameTable[5] = "System.Collections.Generic.List`1<CMOVStockApp.Models.Company>";
+            _typeNameTable[6] = "Object";
+            _typeNameTable[7] = "CMOVStockApp.Models.Company";
+            _typeNameTable[8] = "String";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::CMOVStockApp.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::CMOVStockApp.Views.Menu);
+            _typeTable[4] = typeof(global::CMOVStockApp.Views.Shares);
+            _typeTable[5] = typeof(global::System.Collections.Generic.List<global::CMOVStockApp.Models.Company>);
+            _typeTable[6] = typeof(global::System.Object);
+            _typeTable[7] = typeof(global::CMOVStockApp.Models.Company);
+            _typeTable[8] = typeof(global::System.String);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,6 +189,14 @@ namespace CMOVStockApp.CMOVStockApp_XamlTypeInfo
 
         private object Activate_0_MainPage() { return new global::CMOVStockApp.MainPage(); }
         private object Activate_3_Menu() { return new global::CMOVStockApp.Views.Menu(); }
+        private object Activate_4_Shares() { return new global::CMOVStockApp.Views.Shares(); }
+        private object Activate_5_List() { return new global::System.Collections.Generic.List<global::CMOVStockApp.Models.Company>(); }
+        private void VectorAdd_5_List(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::CMOVStockApp.Models.Company>)instance;
+            var newItem = (global::CMOVStockApp.Models.Company)item;
+            collection.Add(newItem);
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -211,16 +229,99 @@ namespace CMOVStockApp.CMOVStockApp_XamlTypeInfo
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
+
+            case 4:   //  CMOVStockApp.Views.Shares
+                userType = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_Shares;
+                userType.AddMemberName("searchedList");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  System.Collections.Generic.List`1<CMOVStockApp.Models.Company>
+                userType = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_5_List;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Object
+                xamlType = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  CMOVStockApp.Models.Company
+                userType = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("symbol");
+                userType.AddMemberName("name");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  String
+                xamlType = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
             }
             return xamlType;
         }
 
 
+        private object get_0_Shares_searchedList(object instance)
+        {
+            var that = (global::CMOVStockApp.Views.Shares)instance;
+            return that.searchedList;
+        }
+        private void set_0_Shares_searchedList(object instance, object Value)
+        {
+            var that = (global::CMOVStockApp.Views.Shares)instance;
+            that.searchedList = (global::System.Collections.Generic.List<global::CMOVStockApp.Models.Company>)Value;
+        }
+        private object get_1_Company_symbol(object instance)
+        {
+            var that = (global::CMOVStockApp.Models.Company)instance;
+            return that.symbol;
+        }
+        private void set_1_Company_symbol(object instance, object Value)
+        {
+            var that = (global::CMOVStockApp.Models.Company)instance;
+            that.symbol = (global::System.String)Value;
+        }
+        private object get_2_Company_name(object instance)
+        {
+            var that = (global::CMOVStockApp.Models.Company)instance;
+            return that.name;
+        }
+        private void set_2_Company_name(object instance, object Value)
+        {
+            var that = (global::CMOVStockApp.Models.Company)instance;
+            that.name = (global::System.String)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "CMOVStockApp.Views.Shares.searchedList":
+                userType = (global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CMOVStockApp.Views.Shares");
+                xamlMember = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlMember(this, "searchedList", "System.Collections.Generic.List`1<CMOVStockApp.Models.Company>");
+                xamlMember.Getter = get_0_Shares_searchedList;
+                xamlMember.Setter = set_0_Shares_searchedList;
+                break;
+            case "CMOVStockApp.Models.Company.symbol":
+                userType = (global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CMOVStockApp.Models.Company");
+                xamlMember = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlMember(this, "symbol", "String");
+                xamlMember.Getter = get_1_Company_symbol;
+                xamlMember.Setter = set_1_Company_symbol;
+                break;
+            case "CMOVStockApp.Models.Company.name":
+                userType = (global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CMOVStockApp.Models.Company");
+                xamlMember = new global::CMOVStockApp.CMOVStockApp_XamlTypeInfo.XamlMember(this, "name", "String");
+                xamlMember.Getter = get_2_Company_name;
+                xamlMember.Setter = set_2_Company_name;
+                break;
+            }
             return xamlMember;
         }
     }

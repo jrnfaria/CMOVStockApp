@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CMOVStockApp.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,7 +26,7 @@ namespace CMOVStockApp.Views
         public Menu()
         {
             this.InitializeComponent();
-
+            
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
@@ -37,7 +38,7 @@ namespace CMOVStockApp.Views
         {
             MySplitView.IsPaneOpen = false;
             if (MySplitView.Content != null)
-                SplitViewFrame.Navigate(typeof(MainPage));
+                SplitViewFrame.Navigate(typeof(Shares));
         }
     }
 }

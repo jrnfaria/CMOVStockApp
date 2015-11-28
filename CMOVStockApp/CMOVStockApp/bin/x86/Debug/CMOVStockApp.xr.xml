@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="IsChecked" />
+    <RootPropertyPathName Name="ActualWidth" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="RequestedTheme" />
@@ -21,6 +25,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
+      <RootProperty Name="FontWeight" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="CMOVStockApp.MainPage" />
@@ -43,9 +48,43 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Background" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="CMOVStockApp.Views.Menu" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentDialog">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Title" />
+      <RootProperty Name="PrimaryButtonText" />
+      <RootProperty Name="IsPrimaryButtonEnabled" />
+      <RootProperty Name="SecondaryButtonText" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="PrimaryButtonClick" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="ElementName" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootEvent Name="TextChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="CMOVStockApp.Views.Shares" />
   </Roots.RootTypes>
 </Roots>
