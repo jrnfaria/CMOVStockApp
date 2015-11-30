@@ -8,25 +8,38 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel>
-            <ListView ItemsSource="{x:Bind observingList}"
-        HorizontalAlignment="Center" VerticalAlignment="Center"  x:Name="observingCompanyList" Margin="906,0,905,0">
+        
+        <RelativePanel HorizontalAlignment="Center" >
+            <ListView ItemsSource="{Binding observingList}"
+          VerticalAlignment="Center" HorizontalAlignment="Stretch" x:Name="observingCompanyList" Margin="-3,0,0,0" >
+                <ListView.Header>
+                    <Grid HorizontalAlignment="Stretch">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" FontWeight="Bold"  Text="Symbol" />
+                        <TextBlock Grid.Column="1" FontWeight="Bold" Text="Name" />
+                    </Grid>
+                </ListView.Header>
+
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:Company">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{x:Bind symbol}" FontWeight="Bold"/>
-                            <TextBlock Text="{x:Bind name}" FontWeight="Bold"/>
+                        <StackPanel HorizontalAlignment="Stretch">
+                            <TextBlock Grid.Column="0" Text="{x:Bind symbol}" FontWeight="Bold" />
+                            <TextBlock Grid.Column="1" Text="{x:Bind name}" FontWeight="Bold"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button x:Name="AddStock" Content="Add stock" HorizontalAlignment="Left"  Height="Auto" MinWidth="100"  MaxWidth="1000" Margin="161,92,0,0" VerticalAlignment="Top" Click="addStock" />
+            <Button x:Name="AddStock" Content="Add stock" RelativePanel.AlignHorizontalCenterWith="observingCompanyList" RelativePanel.Below="observingCompanyList" Height="Auto" MinWidth="100"  MaxWidth="1000"  VerticalAlignment="Top" Click="addStock"  />
 
-        </StackPanel>
+        </RelativePanel>
 
         <ContentDialog x:Name="contentDialog"
                         VerticalAlignment="Stretch"
-                        Title="Lorem Ipsum"
+                        Title="Company search"
                         PrimaryButtonText="Add"
                         IsPrimaryButtonEnabled="{Binding IsChecked, Mode=OneWay}"
                         SecondaryButtonText="Cancel"
@@ -40,8 +53,8 @@
                     <ListView.ItemTemplate>
                         <DataTemplate x:DataType="models:Company">
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="{x:Bind symbol}" FontWeight="Bold"/>
-                                <TextBlock Text="{x:Bind name}" FontWeight="Bold"/>
+                                <TextBlock Text="{x:Bind symbol}" HorizontalAlignment="Left" FontWeight="Bold"/>
+                                <TextBlock Text="{x:Bind name}" HorizontalAlignment="Right" Margin="10,0,0,0" FontWeight="Bold"/>
                             </StackPanel>
                         </DataTemplate>
                     </ListView.ItemTemplate>

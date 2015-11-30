@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,10 +17,22 @@ namespace CMOVStockApp.Models
         [JsonProperty("Name")]
         public String name { get; set; }
 
-        public Company(String sm,String nm)
+        public Company(String sm, String nm)
         {
             symbol = sm;
             name = nm;
+        }
+    }
+
+    public class CompanyValue
+    {
+        public String value { get; set; }
+        public String date { get; set; }
+
+        public CompanyValue(String v, String d)
+        {
+            value = v;
+            date = d;
         }
     }
     class StockNameLoad
@@ -34,7 +47,7 @@ namespace CMOVStockApp.Models
                 {
 
                     //JObject o1 = JObject.Parse(File.ReadAllText(@"C:\list.json"));
-                    companies.Add(new Company("T1","microsoft"));
+                    companies.Add(new Company("T1", "microsoft"));
                     companies.Add(new Company("T2", "google"));
                     companies.Add(new Company("Csaa2", "FEUP"));
                     companies.Add(new Company("Csa21a2", "FEUP"));
@@ -49,6 +62,65 @@ namespace CMOVStockApp.Models
 
     class YahooFinances
     {
+        //gets stock value history
+        //if
+        //mode=0->last week;per day
+        //mode=1->last month;per day
+        //mode=2->lsat 6 months;per month
+        //mode=3->last year; per month
+        public async Task<List<CompanyValue>> GetCompanyHistory(int mode)
+        {
+            string content = null;
+            List<CompanyValue> rsp = new List<CompanyValue>();
+            DateTime thisDay = DateTime.Today;
+
+            int month = thisDay.Month - 1;
+            int year = thisDay.Year;
+            int day = thisDay.Day;
+            String interval = "d";
+
+            if (mode == 0)
+            {
+                thisDay = thisDay.AddDays(-7);
+            }
+            else if (mode == 1)
+            {
+                thisDay = thisDay.AddMonths(-1);
+                interval = "w";
+            }
+            else if (mode == 2)
+            {
+                thisDay = thisDay.AddMonths(-6);
+                interval = "m";
+            }
+            else if (mode == 3)
+            {
+                thisDay = thisDay.AddYears(-1);
+                interval = "m";
+            }
+
+
+            using (HttpClient client = new HttpClient())
+            {
+                using (HttpResponseMessage response = await client.GetAsync("http://ichart.finance.yahoo.com/table.txt?a=" + (thisDay.Month - 1) + "&b=" + thisDay.Day + "&c=" + thisDay.Year + "&d=" + month + "&e=" + day + "&f=" + year + "&g="+interval+"&s=AAPL"))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        content = await response.Content.ReadAsStringAsync();//0,4
+                        string[] history = content.Split('\n');
+                        for (int i = 1; i < history.Length - 1; i++)
+                        {
+                            string[] info = history[i].Split(',');
+                            rsp.Add(new CompanyValue(info[4], info[0]));
+                        }
+                        return rsp;
+                    }
+                    else { return rsp; }
+
+                }
+            }
+
+        }
     }
 }
 /*

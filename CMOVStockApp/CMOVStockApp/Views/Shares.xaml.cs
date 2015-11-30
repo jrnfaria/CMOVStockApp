@@ -1,6 +1,7 @@
 ﻿using CMOVStockApp.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -26,8 +27,8 @@ namespace CMOVStockApp.Views
         private List<Company> companyList { get; set; }//all companies
 
         public List<Company> searchedList { get; set; }//companies in the search field
-
-        private List<Company> observingList { get; set; }//companies selected
+       
+        private ObservableCollection<Company> observingList { get; set; }//companies selected
 
 
 
@@ -35,7 +36,7 @@ namespace CMOVStockApp.Views
         {
             this.InitializeComponent();
 
-            observingList = new List<Company>();
+            observingList = new ObservableCollection<Company>();
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -44,6 +45,7 @@ namespace CMOVStockApp.Views
 
         }
 
+        //loads companies to be searched, hardcoded at the moment
         private async void loadCompanies()
         {
             companyList = await StockNameLoad.getList();
@@ -51,13 +53,13 @@ namespace CMOVStockApp.Views
             searchList.ItemsSource = companyList;
         }
 
-
+        //sow modal window ativated by add stock button
         private async void addStock(object sender, RoutedEventArgs e)
         {
-
             await contentDialog.ShowAsync();
         }
 
+        //searchs the companies from a list activates every time user writes something in the modal window
         private void searchCompanies(object sender, TextChangedEventArgs e)
         {
             searchText.Text = SearchBar.Text;
@@ -73,11 +75,19 @@ namespace CMOVStockApp.Views
             searchList.ItemsSource = searchedList;
         }
 
+        //adds company to observing list 8activated by add button in modal window)
         private void addCompany(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
+            int test = searchList.SelectedIndex;
+            
             Company cmp = searchedList.ElementAt(searchList.SelectedIndex);
             observingList.Add(cmp);
             observingCompanyList.ItemsSource = observingList;
+        }
+
+        private void TextBlock_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+
         }
     }
 }

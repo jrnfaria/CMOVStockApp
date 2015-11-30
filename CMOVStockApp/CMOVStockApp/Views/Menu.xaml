@@ -16,7 +16,7 @@
                     Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"/>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE825;"
-                    Width="50" Height="50" Background="Transparent" Click="testClick"/>
+                    Width="50" Height="50" Background="Transparent" Click="goToAddStockPage"/>
                         <TextBlock Text="Shares" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
@@ -26,7 +26,7 @@
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
-                        Width="50" Height="50" Background="Transparent"/>
+                        Width="50" Height="50" Background="Transparent" Click="goToHistoryPage"/>
                         <TextBlock Text="History" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>
                 </StackPanel>

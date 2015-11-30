@@ -34,11 +34,18 @@ namespace CMOVStockApp.Views
             MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
         }
 
-        private void testClick(object sender, RoutedEventArgs e)
+        private void goToAddStockPage(object sender, RoutedEventArgs e)
         {
             MySplitView.IsPaneOpen = false;
             if (MySplitView.Content != null)
                 SplitViewFrame.Navigate(typeof(Shares));
+        }
+
+        private void goToHistoryPage(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = false;
+            if (MySplitView.Content != null)
+                SplitViewFrame.Navigate(typeof(StockHistory));
         }
     }
 }
