@@ -47,12 +47,12 @@ namespace CMOVStockApp.Models
                 {
 
                     //JObject o1 = JObject.Parse(File.ReadAllText(@"C:\list.json"));
-                    companies.Add(new Company("T1", "microsoft"));
-                    companies.Add(new Company("T2", "google"));
-                    companies.Add(new Company("Csaa2", "FEUP"));
-                    companies.Add(new Company("Csa21a2", "FEUP"));
-                    companies.Add(new Company("Csaawq2", "FEUP"));
-                    companies.Add(new Company("Csaeqa2", "FEUP"));
+                    companies.Add(new Company("MSFT", "microsoft"));
+                    companies.Add(new Company("GOOG", "google"));
+                    companies.Add(new Company("AMZN", "Amazon"));
+                    companies.Add(new Company("HPQ", "hp"));
+                    companies.Add(new Company("CSCO", "Cisco"));
+                    companies.Add(new Company("AAPL", "Apple"));
                 }
                 return companies;
             });
@@ -62,13 +62,14 @@ namespace CMOVStockApp.Models
 
     class YahooFinances
     {
+        public static List<Company> observingCompanies=new List<Company>();
         //gets stock value history
         //if
         //mode=0->last week;per day
         //mode=1->last month;per day
         //mode=2->lsat 6 months;per month
         //mode=3->last year; per month
-        public async Task<List<CompanyValue>> GetCompanyHistory(int mode)
+        public async Task<List<CompanyValue>> GetCompanyHistory(int mode,String symbol)
         {
             string content = null;
             List<CompanyValue> rsp = new List<CompanyValue>();
@@ -102,13 +103,13 @@ namespace CMOVStockApp.Models
 
             using (HttpClient client = new HttpClient())
             {
-                using (HttpResponseMessage response = await client.GetAsync("http://ichart.finance.yahoo.com/table.txt?a=" + (thisDay.Month - 1) + "&b=" + thisDay.Day + "&c=" + thisDay.Year + "&d=" + month + "&e=" + day + "&f=" + year + "&g="+interval+"&s=AAPL"))
+                using (HttpResponseMessage response = await client.GetAsync("http://ichart.finance.yahoo.com/table.txt?a=" + (thisDay.Month - 1) + "&b=" + thisDay.Day + "&c=" + thisDay.Year + "&d=" + month + "&e=" + day + "&f=" + year + "&g="+interval+"&s="+symbol))
                 {
                     if (response.IsSuccessStatusCode)
                     {
                         content = await response.Content.ReadAsStringAsync();//0,4
                         string[] history = content.Split('\n');
-                        for (int i = 1; i < history.Length - 1; i++)
+                        for (int i = history.Length - 2; i > 0; i--)
                         {
                             string[] info = history[i].Split(',');
                             rsp.Add(new CompanyValue(info[4], info[0]));

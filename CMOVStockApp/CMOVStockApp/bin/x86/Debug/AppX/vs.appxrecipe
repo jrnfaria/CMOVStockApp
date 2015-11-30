@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-30T12:32:14.052</Modified>
+      <Modified>2015-11-30T15:23:11.592</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.exe">
       <PackagePath>CMOVStockApp.exe</PackagePath>
-      <Modified>2015-11-30T12:32:14.051</Modified>
+      <Modified>2015-11-30T15:23:11.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.xr.xml">
       <PackagePath>CMOVStockApp.xr.xml</PackagePath>
-      <Modified>2015-11-29T19:57:46.518</Modified>
+      <Modified>2015-11-30T14:58:31.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\entrypoint\CMOVStockApp.exe">
       <PackagePath>entrypoint\CMOVStockApp.exe</PackagePath>
-      <Modified>2015-11-30T12:32:13.241</Modified>
+      <Modified>2015-11-30T15:23:09.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-30T12:23:28.055</Modified>
+      <Modified>2015-11-30T15:23:10.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

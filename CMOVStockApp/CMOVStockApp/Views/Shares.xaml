@@ -26,7 +26,7 @@
 
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:Company">
-                        <StackPanel HorizontalAlignment="Stretch">
+                        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
                             <TextBlock Grid.Column="0" Text="{x:Bind symbol}" FontWeight="Bold" />
                             <TextBlock Grid.Column="1" Text="{x:Bind name}" FontWeight="Bold"/>
                         </StackPanel>

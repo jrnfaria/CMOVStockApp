@@ -1,6 +1,7 @@
 ﻿using CMOVStockApp.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -23,25 +24,70 @@ namespace CMOVStockApp.Views
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     /// 
-    
+
     public sealed partial class StockHistory : Page
     {
-        public int i = 0;
+        private ObservableCollection<String> options { get; set; }
         public StockHistory()
         {
+            options = new ObservableCollection<String>();
+
             this.InitializeComponent();
 
         }
 
-        private async void ButtonRefresh_Click(object sender, RoutedEventArgs e)
+        protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            i++;
-            if (i == 4)
-                i = 0;
-            YahooFinances y = new YahooFinances();
-            List<CompanyValue> stockHistory = new List<CompanyValue>();
-            stockHistory = await y.GetCompanyHistory(i);
-            (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
+            options = new ObservableCollection<String>();
+            if (YahooFinances.observingCompanies.Count > 0)
+                foreach (var company in YahooFinances.observingCompanies)
+                    options.Add(company.symbol);
+            DecideCompany.ItemsSource = options;
+        }
+
+        //get last week history
+        private async void buttonGetLastWeekClick(object sender, RoutedEventArgs e)
+        {
+            if (DecideCompany.SelectedItem != null)
+            {
+                YahooFinances y = new YahooFinances();
+                List<CompanyValue> stockHistory = new List<CompanyValue>();
+                stockHistory = await y.GetCompanyHistory(0, DecideCompany.SelectedItem as String);
+                (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
+            }
+        }
+
+        private async void buttonGetLastMonthClick(object sender, RoutedEventArgs e)
+        {
+            if (DecideCompany.SelectedItem != null)
+            {
+                YahooFinances y = new YahooFinances();
+                List<CompanyValue> stockHistory = new List<CompanyValue>();
+                stockHistory = await y.GetCompanyHistory(1, DecideCompany.SelectedItem as String);
+                (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
+            }
+        }
+
+        private async void buttonGetLast6MonthClick(object sender, RoutedEventArgs e)
+        {
+            if (DecideCompany.SelectedItem != null)
+            {
+                YahooFinances y = new YahooFinances();
+                List<CompanyValue> stockHistory = new List<CompanyValue>();
+                stockHistory = await y.GetCompanyHistory(2, DecideCompany.SelectedItem as String);
+                (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
+            }
+        }
+
+        private async void buttonGetLastYearClick(object sender, RoutedEventArgs e)
+        {
+            if (DecideCompany.SelectedItem != null)
+            {
+                YahooFinances y = new YahooFinances();
+                List<CompanyValue> stockHistory = new List<CompanyValue>();
+                stockHistory = await y.GetCompanyHistory(3, DecideCompany.SelectedItem as String);
+                (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
+            }
         }
     }
 }

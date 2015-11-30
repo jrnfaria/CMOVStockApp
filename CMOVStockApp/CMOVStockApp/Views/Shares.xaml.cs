@@ -35,14 +35,17 @@ namespace CMOVStockApp.Views
         public Shares()
         {
             this.InitializeComponent();
-
             observingList = new ObservableCollection<Company>();
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             loadCompanies();
-
+            observingList = new ObservableCollection<Company>();
+            if (YahooFinances.observingCompanies.Count > 0)
+                foreach (var company in YahooFinances.observingCompanies)
+                    observingList.Add(company);
+            observingCompanyList.ItemsSource = observingList;
         }
 
         //loads companies to be searched, hardcoded at the moment
@@ -79,15 +82,14 @@ namespace CMOVStockApp.Views
         private void addCompany(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
             int test = searchList.SelectedIndex;
-            
             Company cmp = searchedList.ElementAt(searchList.SelectedIndex);
-            observingList.Add(cmp);
-            observingCompanyList.ItemsSource = observingList;
+            if (!YahooFinances.observingCompanies.Contains(cmp))
+            {
+                observingList.Add(cmp);
+                YahooFinances.observingCompanies.Add(cmp);
+                observingCompanyList.ItemsSource = observingList;
+            }
         }
 
-        private void TextBlock_PointerEntered(object sender, PointerRoutedEventArgs e)
-        {
-
-        }
     }
 }
