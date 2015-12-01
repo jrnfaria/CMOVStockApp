@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-1AL3LG5</Machine>
+    <WindowsUser>jrnf0</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>BB29842E5CC2B145054DED386B832BA1035C723403DF680F8F82E325349E34C9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3_1.0.0.0_x86__8sban3068n7ep</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3_8sban3068n7ep!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=jrnf0</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-12-01T17:36:39.687</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-11-27T11:56:16.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-08-27T00:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-27T00:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-27T00:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-27T00:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-27T00:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-27T00:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-27T00:38:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-09-16T18:11:21.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\CMOVStockApp.dll">
+      <PackagePath>CMOVStockApp.dll</PackagePath>
+      <Modified>2015-12-01T17:36:37.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\CMOVStockApp.exe">
+      <PackagePath>CMOVStockApp.exe</PackagePath>
+      <Modified>2015-12-01T17:36:39.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-12-01T17:28:29.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.644</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.691</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.775</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\WinRTXamlToolkit\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
+      <Modified>2015-11-29T17:38:52.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+      <Modified>2015-12-01T17:35:22.630</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Release\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+      <Modified>2015-12-01T17:35:22.631</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

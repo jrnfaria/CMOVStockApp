@@ -1,0 +1,2 @@
+WinRTXamlToolkit.Controls.DataVisualization, Version=1.6.1.3, Culture=neutral, PublicKeyToken=null
+  WinRTXamlToolkit.Controls.DataVisualization.Properties.Resources.resources

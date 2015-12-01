@@ -1,0 +1,9 @@
+/ignoreAccessChecks
+/metadataFile "C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Release\ilc\intermediate\ILTransformed\CMOVStockApp.metadata"
+/gvmAssemblyName "System.Private.CoreLib"
+/o
+/sharedGenerics
+/ilmergeinfo "C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Release\ilc\intermediate\ILTransformed\CMOVStockApp.csv"
+/sharedGenericsMode StandardHeuristics
+/in "C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Release\ilc\intermediate\ILTransformed\CMOVStockApp.ilexe"
+/out "C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Release\ilc\intermediate\MDIL\CMOVStockApp.mdilexe"
