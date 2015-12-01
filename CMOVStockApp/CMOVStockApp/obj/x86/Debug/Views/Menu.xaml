@@ -11,7 +11,7 @@
         <SplitView x:ConnectionId='1' x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
                CompactPaneLength="50" OpenPaneLength="150">
             <SplitView.Pane>
-                <StackPanel Background="LightBlue">
+                <StackPanel Background="Gray">
                     <Button x:ConnectionId='2' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
                     Width="50" Height="50" Background="Transparent"                              />
                     <StackPanel Orientation="Horizontal">
@@ -25,7 +25,7 @@
                         <TextBlock Text="Values" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
-                        <Button x:ConnectionId='3' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
+                        <Button x:ConnectionId='3' x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#x1f4c8;"
                         Width="50" Height="50" Background="Transparent"                        />
                         <TextBlock Text="History" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>

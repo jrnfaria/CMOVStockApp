@@ -39,8 +39,8 @@ namespace CMOVStockApp.Views
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             options = new ObservableCollection<String>();
-            if (YahooFinances.observingCompanies.Count > 0)
-                foreach (var company in YahooFinances.observingCompanies)
+            if (YahooFinance.observingCompanies.Count > 0)
+                foreach (var company in YahooFinance.observingCompanies)
                     options.Add(company.symbol);
             DecideCompany.ItemsSource = options;
         }
@@ -50,7 +50,7 @@ namespace CMOVStockApp.Views
         {
             if (DecideCompany.SelectedItem != null)
             {
-                YahooFinances y = new YahooFinances();
+                YahooFinance y = new YahooFinance();
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await y.GetCompanyHistory(0, DecideCompany.SelectedItem as String);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
@@ -61,7 +61,7 @@ namespace CMOVStockApp.Views
         {
             if (DecideCompany.SelectedItem != null)
             {
-                YahooFinances y = new YahooFinances();
+                YahooFinance y = new YahooFinance();
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await y.GetCompanyHistory(1, DecideCompany.SelectedItem as String);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
@@ -72,7 +72,7 @@ namespace CMOVStockApp.Views
         {
             if (DecideCompany.SelectedItem != null)
             {
-                YahooFinances y = new YahooFinances();
+                YahooFinance y = new YahooFinance();
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await y.GetCompanyHistory(2, DecideCompany.SelectedItem as String);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
@@ -83,7 +83,7 @@ namespace CMOVStockApp.Views
         {
             if (DecideCompany.SelectedItem != null)
             {
-                YahooFinances y = new YahooFinances();
+                YahooFinance y = new YahooFinance();
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await y.GetCompanyHistory(3, DecideCompany.SelectedItem as String);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;

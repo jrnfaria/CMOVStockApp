@@ -42,8 +42,8 @@ namespace CMOVStockApp.Views
         {
             loadCompanies();
             observingList = new ObservableCollection<Company>();
-            if (YahooFinances.observingCompanies.Count > 0)
-                foreach (var company in YahooFinances.observingCompanies)
+            if (YahooFinance.observingCompanies.Count > 0)
+                foreach (var company in YahooFinance.observingCompanies)
                     observingList.Add(company);
             observingCompanyList.ItemsSource = observingList;
         }
@@ -83,10 +83,10 @@ namespace CMOVStockApp.Views
         {
             int test = searchList.SelectedIndex;
             Company cmp = searchedList.ElementAt(searchList.SelectedIndex);
-            if (!YahooFinances.observingCompanies.Contains(cmp))
+            if (!YahooFinance.observingCompanies.Contains(cmp))
             {
                 observingList.Add(cmp);
-                YahooFinances.observingCompanies.Add(cmp);
+                YahooFinance.observingCompanies.Add(cmp);
                 observingCompanyList.ItemsSource = observingList;
             }
         }

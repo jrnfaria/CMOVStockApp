@@ -21,6 +21,43 @@
       <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="TextAlignment" />
+      <RootProperty Name="FontWeight" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="MaxWidth" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="RenderTransformOrigin" />
+      <RootEvent Name="TextChanged" />
+    </RootType>
+    <RootType FullName="CMOVStockApp.Views.Login" />
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="DisplayMode" />
       <RootProperty Name="IsPaneOpen" />
@@ -34,28 +71,6 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="HorizontalAlignment" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="FontFamily" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Background" />
-      <RootProperty Name="MinWidth" />
-      <RootProperty Name="MaxWidth" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootEvent Name="Click" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="Text" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="FontWeight" />
-      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="CMOVStockApp.Views.Menu" />
@@ -85,15 +100,13 @@
       <RootProperty Name="Mode" />
       <RootProperty Name="ElementName" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
-      <RootEvent Name="TextChanged" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Header" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
@@ -125,5 +138,6 @@
       <RootProperty Name="IsSelectionEnabled" />
     </RootType>
     <RootType FullName="CMOVStockApp.Views.StockHistory" />
+    <RootType FullName="CMOVStockApp.StockPortfolio" />
   </Roots.RootTypes>
 </Roots>

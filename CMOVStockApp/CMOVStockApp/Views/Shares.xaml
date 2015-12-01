@@ -11,15 +11,15 @@
         
         <RelativePanel HorizontalAlignment="Center" >
             <ListView ItemsSource="{Binding observingList}"
-          VerticalAlignment="Center" HorizontalAlignment="Stretch" x:Name="observingCompanyList" Margin="-3,0,0,0" >
+          VerticalAlignment="Center" HorizontalAlignment="Stretch" x:Name="observingCompanyList" Margin="-3,0,0,0" Width="200" >
                 <ListView.Header>
                     <Grid HorizontalAlignment="Stretch">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="100" />
                         </Grid.ColumnDefinitions>
 
-                        <TextBlock Grid.Column="0" FontWeight="Bold"  Text="Symbol" />
+                        <TextBlock Grid.Column="0" FontWeight="Bold" Text="Symbol" />
                         <TextBlock Grid.Column="1" FontWeight="Bold" Text="Name" />
                     </Grid>
                 </ListView.Header>
