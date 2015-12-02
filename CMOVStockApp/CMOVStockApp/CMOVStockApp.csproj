@@ -113,6 +113,9 @@
     <Compile Include="Views\StockHistory.xaml.cs">
       <DependentUpon>StockHistory.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\StockPortefolio.xaml.cs">
+      <DependentUpon>StockPortefolio.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -151,7 +154,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\StockPortfolio.xaml">
+    <Page Include="Views\StockPortefolio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

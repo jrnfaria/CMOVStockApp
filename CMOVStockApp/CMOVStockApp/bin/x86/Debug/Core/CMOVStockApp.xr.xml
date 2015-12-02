@@ -4,6 +4,13 @@
     <RootPropertyPathName Name="IsChecked" />
     <RootPropertyPathName Name="ActualWidth" />
     <RootPropertyPathName Name="observingList" />
+    <RootPropertyPathName Name="max" />
+    <RootPropertyPathName Name="min" />
+    <RootPropertyPathName Name="symbol" />
+    <RootPropertyPathName Name="name" />
+    <RootPropertyPathName Name="YahooFinance" />
+    <RootPropertyPathName Name="observingCompanies" />
+    <RootPropertyPathName Name="quote" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -15,8 +22,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
@@ -55,6 +62,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="IsReadOnly" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="CMOVStockApp.Views.Login" />
@@ -70,7 +78,6 @@
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
       <RootProperty Name="Orientation" />
-      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="CMOVStockApp.Views.Menu" />
@@ -106,7 +113,6 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Header" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
@@ -115,6 +121,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
+      <RootProperty Name="MinWidth" />
     </RootType>
     <RootType FullName="CMOVStockApp.Views.Shares" />
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
@@ -138,6 +145,6 @@
       <RootProperty Name="IsSelectionEnabled" />
     </RootType>
     <RootType FullName="CMOVStockApp.Views.StockHistory" />
-    <RootType FullName="CMOVStockApp.StockPortfolio" />
+    <RootType FullName="CMOVStockApp.Views.StockPortefolio" />
   </Roots.RootTypes>
 </Roots>

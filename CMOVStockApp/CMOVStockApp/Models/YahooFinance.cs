@@ -2,6 +2,7 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -18,11 +19,19 @@ namespace CMOVStockApp.Models
         public String symbol { get; set; }
         [JsonProperty("Name")]
         public String name { get; set; }
+        [JsonProperty("Min")]
+        public double min { get; set; }
+        [JsonProperty("Max")]
+        public double max { get; set; }
+        public double quote { get; set; }
 
         public Company(String sm, String nm)
         {
             symbol = sm;
             name = nm;
+            min = -1;
+            max = 1000000;
+            quote = 0;
         }
     }
 
@@ -105,14 +114,14 @@ namespace CMOVStockApp.Models
 
     class YahooFinance
     {
-        public static List<Company> observingCompanies=new List<Company>();
+        public static List<Company> observingCompanies = new List<Company>();
         //gets stock value history
         //if
         //mode=0->last week;per day
         //mode=1->last month;per day
         //mode=2->last 6 months;per month
         //mode=3->last year; per month
-        public async Task<List<CompanyValue>> GetCompanyHistory(int mode,String symbol)
+        public async Task<List<CompanyValue>> GetCompanyHistory(int mode, String symbol)
         {
             string content = null;
             List<CompanyValue> rsp = new List<CompanyValue>();
@@ -146,7 +155,7 @@ namespace CMOVStockApp.Models
 
             using (HttpClient client = new HttpClient())
             {
-                using (HttpResponseMessage response = await client.GetAsync("http://ichart.finance.yahoo.com/table.txt?a=" + (thisDay.Month - 1) + "&b=" + thisDay.Day + "&c=" + thisDay.Year + "&d=" + month + "&e=" + day + "&f=" + year + "&g="+interval+"&s="+symbol))
+                using (HttpResponseMessage response = await client.GetAsync("http://ichart.finance.yahoo.com/table.txt?a=" + (thisDay.Month - 1) + "&b=" + thisDay.Day + "&c=" + thisDay.Year + "&d=" + month + "&e=" + day + "&f=" + year + "&g=" + interval + "&s=" + symbol))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -164,6 +173,43 @@ namespace CMOVStockApp.Models
                 }
             }
 
+        }
+
+
+        public async Task<List<Company>> getQuotes()
+        {
+            String content = "";
+            String query="";
+
+            for(int i=0;i<observingCompanies.Count;i++)
+            {
+                query += observingCompanies.ElementAt(i).symbol;
+                if(i< observingCompanies.Count-1)
+                {
+                    query += ",";
+                }
+            }
+            using (HttpClient client = new HttpClient())
+            {
+                using (HttpResponseMessage response = await client.GetAsync("http://finance.yahoo.com/d/quotes?f=sl1d1t1v&s="+query))
+                {
+                    if (response.IsSuccessStatusCode)
+                    {
+                        content = await response.Content.ReadAsStringAsync();//0,4
+
+                        string[] quotes = content.Split('\n');
+
+
+                        for (int i = 0; i < observingCompanies.Count; i++)
+                        {
+                            observingCompanies.ElementAt(i).quote = Convert.ToDouble( quotes[i].Split(',')[1]);
+                        }
+                        return observingCompanies;
+                    }
+                    else {return observingCompanies; }
+
+                }
+            }
         }
     }
 }

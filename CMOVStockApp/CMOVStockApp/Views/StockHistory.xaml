@@ -15,7 +15,7 @@
             <Button x:Name="ButtonLastMonth" Content="Last month" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLastWeek" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastMonthClick"/>
             <Button x:Name="ButtonLast6Month" Content="Last 6 months" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLastMonth" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLast6MonthClick"/>
             <Button x:Name="ButtonLastYear" Content="Last year" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLast6Month" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastYearClick"/>
-            <Charting:Chart x:Name="LineChart" HorizontalAlignment="Left" VerticalAlignment="Top" RelativePanel.Below="DecideCompany" Margin="10,10,0,0" Width="1200" Height="400">
+            <Charting:Chart x:Name="LineChart" HorizontalAlignment="Left" VerticalAlignment="Top" RelativePanel.Below="DecideCompany" Margin="10,10,0,0" Width="auto" Height="400">
                 <Charting:LineSeries Title="Stock history" Margin="0" IndependentValuePath="date" DependentValuePath="value" IsSelectionEnabled="True"/>
             </Charting:Chart>
         </RelativePanel>

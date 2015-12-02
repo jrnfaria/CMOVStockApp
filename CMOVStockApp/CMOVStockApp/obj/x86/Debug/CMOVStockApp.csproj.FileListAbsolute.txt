@@ -1125,3 +1125,14 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\View
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.csprojResolveAssemblyReference.cache
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.i.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.i.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xaml
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xaml
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Login.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortefolio.xbf

@@ -47,5 +47,12 @@ namespace CMOVStockApp.Views
             if (MySplitView.Content != null)
                 SplitViewFrame.Navigate(typeof(StockHistory));
         }
+
+        private void goToStockPortefolio(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = false;
+            if (MySplitView.Content != null)
+                SplitViewFrame.Navigate(typeof(StockPortefolio));
+        }
     }
 }
