@@ -1,19 +1,15 @@
 ﻿using CMOVStockApp.Views;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+using Windows.Networking.PushNotifications;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 namespace CMOVStockApp
@@ -23,6 +19,12 @@ namespace CMOVStockApp
     /// </summary>
     sealed partial class App : Application
     {
+        private static PushNotificationChannel channel = null;
+
+        private static string channelUri = null;
+
+        private static string accessToken = null;
+
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
@@ -34,6 +36,59 @@ namespace CMOVStockApp
                 Microsoft.ApplicationInsights.WindowsCollectors.Session);
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            CreatePushNotificationChannel();
+
+            GetAccessToken();
+
+            SendPushNotification();
+        }
+
+        public static async void CreatePushNotificationChannel()
+        {
+            try
+            {
+                channel = await PushNotificationChannelManager.CreatePushNotificationChannelForApplicationAsync();
+
+                channelUri = channel.Uri.ToString();
+            }
+            catch
+            {
+
+            }
+        }
+
+        public static async void GetAccessToken()
+        {
+            HttpClient client = new HttpClient();
+            var body = String.Format("grant_type=client_credentials&client_id=ms-app://s-1-15-2-1714645876-651989582-552947948-2933913919-3002687657-2755528455-2492861792&client_secret=4a0egKDo5N3rQBRoH4qJE5rpQxlCyeLx&scope=notify.windows.com");
+            StringContent content = new StringContent(body, System.Text.Encoding.UTF8, "application/x-www-form-urlencoded");
+            HttpResponseMessage response = await client.PostAsync(new Uri("https://login.live.com/accesstoken.srf"), content);
+            string responseString = await response.Content.ReadAsStringAsync();
+            JObject obj = (JObject)JsonConvert.DeserializeObject(responseString);
+            accessToken = (string)obj.GetValue("access_token");
+        }
+
+        public static async void SendPushNotification()
+        {
+            await Task.Delay(1000);
+
+            string xml = String.Format("<?xml version='1.0' encoding='utf-8'?><toast><visual>< binding template =\"ToastImageAndText01\"><image id=\"1\" src=\"{0}\" alt=\"Placeholder image\"/>< text id =\"1\">{1}</text></binding></visual></toast>", "World", "Hello");
+
+            StringContent xmlContent = new StringContent(xml);
+            xmlContent.Headers.Add("X-WNS-Type", "wns/toast");
+            xmlContent.Headers.Add("X-WNS-RquestForStatus", "true");
+            xmlContent.Headers.ContentType = new MediaTypeHeaderValue("text/xml");
+            xmlContent.Headers.ContentLength = xml.Length;
+
+            HttpRequestMessage message = new HttpRequestMessage();
+            message.Method = new HttpMethod("POST");
+            message.Content = xmlContent;
+            message.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken + "=");
+            message.RequestUri = new Uri(channelUri, UriKind.Absolute);
+
+            HttpClient httpClient = new HttpClient();
+            HttpResponseMessage httpReponseMessage = await httpClient.SendAsync(message);
         }
 
         /// <summary>

@@ -1,1 +1,1 @@
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\CMOVStockApp.csproj;x86
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\CMOVStockApp.csproj;x86

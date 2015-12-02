@@ -1,728 +1,728 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-1AL3LG5</Machine>
-    <WindowsUser>jrnf0</WindowsUser>
+    <Machine>DESKTOP-JFE1CKV</Machine>
+    <WindowsUser>João</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>012D833126011FBA983D6FC2464D3C3D933C94421C9E977BDF96A72760C80CE4</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3_1.0.0.0_x86__8sban3068n7ep</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3_8sban3068n7ep!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>3eea13b0-1e85-4937-8f9f-ee6fea63b9e3</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=jrnf0</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <IntermediateOutputPath>C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>FF8E92210A7B8D7D7FB3A1B709D4FA31F33A003F4B8736A1FBF9EB3D5DC8B1EE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>54570JooS.StocksApp_1.1.0.0_x86__edcpb4w2g1atc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>54570JooS.StocksApp_edcpb4w2g1atc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>54570JooS.StocksApp</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=851C1EC8-6924-41C2-BB8A-6ABDC2D2E28F</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-02T16:23:30.432</Modified>
+      <Modified>2015-12-02T17:57:29.281</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\ApplicationInsights.config">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2015-11-27T11:56:16.543</Modified>
+      <Modified>2015-11-30T22:49:11.734</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-08-27T00:38:34.000</Modified>
+      <Modified>2015-11-30T22:49:11.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T00:38:34.000</Modified>
+      <Modified>2015-11-30T22:49:11.741</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T00:38:34.000</Modified>
+      <Modified>2015-11-30T22:49:11.743</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T00:38:34.000</Modified>
+      <Modified>2015-11-30T22:49:11.745</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T00:38:34.000</Modified>
+      <Modified>2015-11-30T22:49:11.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T00:38:34.000</Modified>
+      <Modified>2015-11-30T22:49:11.749</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-27T00:38:34.000</Modified>
+      <Modified>2015-11-30T22:49:11.751</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\ClrCompression.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
-      <Modified>2015-09-16T18:11:21.145</Modified>
+      <Modified>2015-11-19T18:05:47.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.exe">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.exe">
       <PackagePath>CMOVStockApp.exe</PackagePath>
-      <Modified>2015-12-02T16:23:30.430</Modified>
+      <Modified>2015-12-02T17:57:29.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.xr.xml">
       <PackagePath>CMOVStockApp.xr.xml</PackagePath>
-      <Modified>2015-12-02T14:55:13.156</Modified>
+      <Modified>2015-12-02T17:30:03.832</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\entrypoint\CMOVStockApp.exe">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\entrypoint\CMOVStockApp.exe">
       <PackagePath>entrypoint\CMOVStockApp.exe</PackagePath>
-      <Modified>2015-12-02T16:23:29.559</Modified>
+      <Modified>2015-12-02T17:57:27.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
-      <Modified>2015-09-16T18:10:33.496</Modified>
+      <Modified>2015-11-19T18:05:30.993</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
       <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
-      <Modified>2015-09-16T18:10:35.965</Modified>
+      <Modified>2015-11-19T18:05:31.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll">
       <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
-      <Modified>2015-09-16T18:10:35.614</Modified>
+      <Modified>2015-11-19T18:05:31.371</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.980</Modified>
+      <Modified>2015-11-19T18:05:34.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.955</Modified>
+      <Modified>2015-11-19T18:05:34.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll">
       <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
-      <Modified>2015-09-16T18:10:43.171</Modified>
+      <Modified>2015-11-19T18:05:32.959</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2015-11-15T17:22:49.218</Modified>
+      <Modified>2015-12-01T10:34:10.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2015-11-27T11:53:10.866</Modified>
+      <Modified>2015-11-30T22:49:11.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\resources.pri">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-02T16:16:17.450</Modified>
+      <Modified>2015-12-02T17:57:28.469</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.784</Modified>
+      <Modified>2015-11-19T18:05:34.248</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.926</Modified>
+      <Modified>2015-11-19T18:05:34.771</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.dll">
       <PackagePath>System.Collections.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.037</Modified>
+      <Modified>2015-11-19T18:05:34.373</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.197</Modified>
+      <Modified>2015-11-19T18:05:36.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2015-09-16T18:10:41.380</Modified>
+      <Modified>2015-11-19T18:05:41.650</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2015-09-16T18:10:41.213</Modified>
+      <Modified>2015-11-19T18:05:38.084</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.028</Modified>
+      <Modified>2015-11-19T18:05:36.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
-      <Modified>2015-09-16T18:10:43.315</Modified>
+      <Modified>2015-11-19T18:05:33.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.117</Modified>
+      <Modified>2015-11-19T18:05:34.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2015-09-16T18:10:41.464</Modified>
+      <Modified>2015-11-19T18:05:33.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Core.dll">
       <PackagePath>System.Core.dll</PackagePath>
-      <Modified>2015-09-16T18:10:43.998</Modified>
+      <Modified>2015-11-19T18:05:33.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
-      <Modified>2015-09-16T18:10:42.843</Modified>
+      <Modified>2015-11-19T18:05:33.138</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
-      <Modified>2015-09-16T18:10:43.161</Modified>
+      <Modified>2015-11-19T18:05:33.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Debug.dll">
       <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.176</Modified>
+      <Modified>2015-11-19T18:05:35.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
-      <Modified>2015-09-16T18:10:43.186</Modified>
+      <Modified>2015-11-19T18:05:33.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Tools.dll">
       <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.250</Modified>
+      <Modified>2015-11-19T18:05:36.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll">
       <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.205</Modified>
+      <Modified>2015-11-19T18:05:35.954</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.dll">
       <PackagePath>System.dll</PackagePath>
-      <Modified>2015-09-16T18:10:45.104</Modified>
+      <Modified>2015-11-19T18:05:33.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.298</Modified>
+      <Modified>2015-11-19T18:05:36.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Globalization.Calendars.dll">
       <PackagePath>System.Globalization.Calendars.dll</PackagePath>
-      <Modified>2015-09-16T18:10:57.606</Modified>
+      <Modified>2015-11-19T18:05:35.975</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Globalization.dll">
       <PackagePath>System.Globalization.dll</PackagePath>
-      <Modified>2015-09-16T18:10:56.462</Modified>
+      <Modified>2015-11-19T18:05:36.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2015-09-16T18:10:57.590</Modified>
+      <Modified>2015-11-19T18:05:35.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
-      <Modified>2015-09-16T18:10:57.928</Modified>
+      <Modified>2015-11-19T18:05:36.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2015-09-16T18:10:57.660</Modified>
+      <Modified>2015-11-19T18:05:36.005</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.dll">
       <PackagePath>System.IO.dll</PackagePath>
-      <Modified>2015-09-16T18:10:57.753</Modified>
+      <Modified>2015-11-19T18:05:36.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.FileSystem.dll">
       <PackagePath>System.IO.FileSystem.dll</PackagePath>
-      <Modified>2015-09-16T18:10:58.995</Modified>
+      <Modified>2015-11-19T18:05:37.850</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2015-09-16T18:10:57.848</Modified>
+      <Modified>2015-11-19T18:05:37.253</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
-      <Modified>2015-09-16T18:10:43.331</Modified>
+      <Modified>2015-11-19T18:05:33.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
-      <Modified>2015-09-16T18:10:59.280</Modified>
+      <Modified>2015-11-19T18:05:37.436</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2015-09-16T18:10:59.226</Modified>
+      <Modified>2015-11-19T18:05:37.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2015-09-16T18:10:59.117</Modified>
+      <Modified>2015-11-19T18:05:38.524</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
-      <Modified>2015-09-16T18:10:59.249</Modified>
+      <Modified>2015-11-19T18:05:39.312</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2015-09-16T18:10:59.235</Modified>
+      <Modified>2015-11-19T18:05:39.761</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.dll">
       <PackagePath>System.Net.dll</PackagePath>
-      <Modified>2015-09-16T18:10:45.436</Modified>
+      <Modified>2015-11-19T18:05:33.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2015-09-16T18:11:02.031</Modified>
+      <Modified>2015-11-19T18:05:39.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
-      <Modified>2015-09-16T18:10:45.168</Modified>
+      <Modified>2015-11-19T18:05:33.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.NetworkInformation.dll">
       <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
-      <Modified>2015-09-16T18:10:59.293</Modified>
+      <Modified>2015-11-19T18:05:38.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Primitives.dll">
       <PackagePath>System.Net.Primitives.dll</PackagePath>
-      <Modified>2015-09-16T18:11:03.198</Modified>
+      <Modified>2015-11-19T18:05:39.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Requests.dll">
       <PackagePath>System.Net.Requests.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.013</Modified>
+      <Modified>2015-11-19T18:05:33.343</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.Sockets.dll">
       <PackagePath>System.Net.Sockets.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.013</Modified>
+      <Modified>2015-11-19T18:05:33.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll">
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.758</Modified>
+      <Modified>2015-11-19T18:05:33.407</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Numerics.dll">
       <PackagePath>System.Numerics.dll</PackagePath>
-      <Modified>2015-09-16T18:10:45.798</Modified>
+      <Modified>2015-11-19T18:05:33.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Numerics.Vectors.dll">
       <PackagePath>System.Numerics.Vectors.dll</PackagePath>
-      <Modified>2015-09-16T18:11:04.266</Modified>
+      <Modified>2015-11-19T18:05:39.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll">
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-09-16T18:10:47.242</Modified>
+      <Modified>2015-11-19T18:05:33.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2015-09-16T18:11:05.229</Modified>
+      <Modified>2015-11-19T18:05:39.062</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2015-09-16T18:10:41.741</Modified>
+      <Modified>2015-11-19T18:05:33.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.Networking.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.Networking.dll">
       <PackagePath>System.Private.Networking.dll</PackagePath>
-      <Modified>2015-09-16T18:10:41.814</Modified>
+      <Modified>2015-11-19T18:05:41.838</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
-      <Modified>2015-09-16T18:10:45.641</Modified>
+      <Modified>2015-11-19T18:05:33.618</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
-      <Modified>2015-09-16T18:10:40.357</Modified>
+      <Modified>2015-11-19T18:05:32.703</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Context.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Context.dll">
       <PackagePath>System.Reflection.Context.dll</PackagePath>
-      <Modified>2015-09-16T18:10:47.258</Modified>
+      <Modified>2015-11-19T18:05:34.077</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll">
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
-      <Modified>2015-09-16T18:11:06.052</Modified>
+      <Modified>2015-11-19T18:05:39.385</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.dll">
       <PackagePath>System.Reflection.dll</PackagePath>
-      <Modified>2015-09-16T18:11:04.236</Modified>
+      <Modified>2015-11-19T18:05:39.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2015-09-16T18:11:24.206</Modified>
+      <Modified>2015-11-19T18:05:47.636</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2015-09-16T18:11:23.921</Modified>
+      <Modified>2015-11-19T18:05:47.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2015-09-16T18:11:24.140</Modified>
+      <Modified>2015-11-19T18:05:47.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Extensions.dll">
       <PackagePath>System.Reflection.Extensions.dll</PackagePath>
-      <Modified>2015-09-16T18:11:06.131</Modified>
+      <Modified>2015-11-19T18:05:39.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2015-09-16T18:11:06.176</Modified>
+      <Modified>2015-11-19T18:05:39.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.Primitives.dll">
       <PackagePath>System.Reflection.Primitives.dll</PackagePath>
-      <Modified>2015-09-16T18:11:06.053</Modified>
+      <Modified>2015-11-19T18:05:39.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2015-09-16T18:11:08.557</Modified>
+      <Modified>2015-11-19T18:05:39.661</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Resources.ResourceManager.dll">
       <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
-      <Modified>2015-09-16T18:11:06.168</Modified>
+      <Modified>2015-11-19T18:05:40.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2015-09-16T18:11:09.101</Modified>
+      <Modified>2015-11-19T18:05:41.685</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Extensions.dll">
       <PackagePath>System.Runtime.Extensions.dll</PackagePath>
-      <Modified>2015-09-16T18:11:07.829</Modified>
+      <Modified>2015-11-19T18:05:41.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Handles.dll">
       <PackagePath>System.Runtime.Handles.dll</PackagePath>
-      <Modified>2015-09-16T18:11:08.847</Modified>
+      <Modified>2015-11-19T18:05:40.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.InteropServices.dll">
       <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
-      <Modified>2015-09-16T18:11:08.858</Modified>
+      <Modified>2015-11-19T18:05:41.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-09-16T18:10:52.059</Modified>
+      <Modified>2015-11-19T18:05:33.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2015-09-16T18:11:09.068</Modified>
+      <Modified>2015-11-19T18:05:41.924</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.dll">
       <PackagePath>System.Runtime.Serialization.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.013</Modified>
+      <Modified>2015-11-19T18:05:33.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2015-09-16T18:10:47.309</Modified>
+      <Modified>2015-11-19T18:05:33.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2015-09-16T18:10:52.059</Modified>
+      <Modified>2015-11-19T18:05:33.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2015-09-16T18:10:52.044</Modified>
+      <Modified>2015-11-19T18:05:34.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
-      <Modified>2015-09-16T18:10:52.762</Modified>
+      <Modified>2015-11-19T18:05:34.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
-      <Modified>2015-09-16T18:10:54.225</Modified>
+      <Modified>2015-11-19T18:05:34.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
-      <Modified>2015-09-16T18:11:09.098</Modified>
+      <Modified>2015-11-19T18:05:41.566</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
-      <Modified>2015-09-16T18:11:10.088</Modified>
+      <Modified>2015-11-19T18:05:41.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.dll">
       <PackagePath>System.ServiceModel.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.099</Modified>
+      <Modified>2015-11-19T18:05:33.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll">
       <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
-      <Modified>2015-09-16T18:10:54.040</Modified>
+      <Modified>2015-11-19T18:05:34.094</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Http.dll">
       <PackagePath>System.ServiceModel.Http.dll</PackagePath>
-      <Modified>2015-09-16T18:10:54.042</Modified>
+      <Modified>2015-11-19T18:05:33.866</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll">
       <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
-      <Modified>2015-09-16T18:10:54.047</Modified>
+      <Modified>2015-11-19T18:05:34.007</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll">
       <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.071</Modified>
+      <Modified>2015-11-19T18:05:34.099</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Security.dll">
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.055</Modified>
+      <Modified>2015-11-19T18:05:34.086</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.ServiceModel.Web.dll">
       <PackagePath>System.ServiceModel.Web.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.207</Modified>
+      <Modified>2015-11-19T18:05:33.430</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.284</Modified>
+      <Modified>2015-11-19T18:05:34.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.Encoding.dll">
       <PackagePath>System.Text.Encoding.dll</PackagePath>
-      <Modified>2015-09-16T18:11:10.002</Modified>
+      <Modified>2015-11-19T18:05:41.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll">
       <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
-      <Modified>2015-09-16T18:11:10.051</Modified>
+      <Modified>2015-11-19T18:05:41.696</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2015-09-16T18:11:10.228</Modified>
+      <Modified>2015-11-19T18:05:42.112</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2015-09-16T18:11:10.714</Modified>
+      <Modified>2015-11-19T18:05:42.782</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
-      <Modified>2015-09-16T18:10:40.357</Modified>
+      <Modified>2015-11-19T18:05:32.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
-      <Modified>2015-09-16T18:11:11.047</Modified>
+      <Modified>2015-11-19T18:05:44.212</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Tasks.dll">
       <PackagePath>System.Threading.Tasks.dll</PackagePath>
-      <Modified>2015-09-16T18:11:10.729</Modified>
+      <Modified>2015-11-19T18:05:42.257</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
-      <Modified>2015-09-16T18:11:14.231</Modified>
+      <Modified>2015-11-19T18:05:42.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Threading.Timer.dll">
       <PackagePath>System.Threading.Timer.dll</PackagePath>
-      <Modified>2015-09-16T18:11:14.102</Modified>
+      <Modified>2015-11-19T18:05:44.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Windows.dll">
       <PackagePath>System.Windows.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.741</Modified>
+      <Modified>2015-11-19T18:05:33.476</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.dll">
       <PackagePath>System.Xml.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.855</Modified>
+      <Modified>2015-11-19T18:05:33.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.Linq.dll">
       <PackagePath>System.Xml.Linq.dll</PackagePath>
-      <Modified>2015-09-16T18:10:46.980</Modified>
+      <Modified>2015-11-19T18:05:33.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2015-09-16T18:11:14.241</Modified>
+      <Modified>2015-11-19T18:05:44.673</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.Serialization.dll">
       <PackagePath>System.Xml.Serialization.dll</PackagePath>
-      <Modified>2015-09-16T18:10:47.054</Modified>
+      <Modified>2015-11-19T18:05:33.540</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2015-09-16T18:11:14.146</Modified>
+      <Modified>2015-11-19T18:05:44.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2015-09-16T18:10:41.806</Modified>
+      <Modified>2015-11-19T18:05:33.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2015-09-16T18:10:55.721</Modified>
+      <Modified>2015-11-19T18:05:34.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2015-10-24T20:43:10.245</Modified>
+      <Modified>2015-11-30T22:49:11.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization.dll">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
-      <Modified>2015-11-29T17:38:52.483</Modified>
+      <Modified>2015-12-01T10:34:09.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.497</Modified>
+      <Modified>2015-12-01T10:34:10.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.526</Modified>
+      <Modified>2015-12-01T10:34:10.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.538</Modified>
+      <Modified>2015-12-01T10:34:10.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.542</Modified>
+      <Modified>2015-12-01T10:34:10.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.545</Modified>
+      <Modified>2015-12-01T10:34:10.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.551</Modified>
+      <Modified>2015-12-01T10:34:10.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.556</Modified>
+      <Modified>2015-12-01T10:34:10.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.559</Modified>
+      <Modified>2015-12-01T10:34:10.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.563</Modified>
+      <Modified>2015-12-01T10:34:10.057</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.567</Modified>
+      <Modified>2015-12-01T10:34:10.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.572</Modified>
+      <Modified>2015-12-01T10:34:10.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.576</Modified>
+      <Modified>2015-12-01T10:34:10.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.579</Modified>
+      <Modified>2015-12-01T10:34:10.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.583</Modified>
+      <Modified>2015-12-01T10:34:10.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.590</Modified>
+      <Modified>2015-12-01T10:34:10.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.593</Modified>
+      <Modified>2015-12-01T10:34:10.104</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.597</Modified>
+      <Modified>2015-12-01T10:34:10.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.602</Modified>
+      <Modified>2015-12-01T10:34:10.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.606</Modified>
+      <Modified>2015-12-01T10:34:10.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.608</Modified>
+      <Modified>2015-12-01T10:34:10.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.612</Modified>
+      <Modified>2015-12-01T10:34:10.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.618</Modified>
+      <Modified>2015-12-01T10:34:10.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.622</Modified>
+      <Modified>2015-12-01T10:34:10.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml</PackagePath>
-      <Modified>2015-11-29T17:38:52.493</Modified>
+      <Modified>2015-12-01T10:34:10.010</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.dll">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.dll">
       <PackagePath>WinRTXamlToolkit.dll</PackagePath>
-      <Modified>2015-11-29T17:38:52.575</Modified>
+      <Modified>2015-12-01T10:34:10.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.591</Modified>
+      <Modified>2015-12-01T10:34:10.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.637</Modified>
+      <Modified>2015-12-01T10:34:10.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.641</Modified>
+      <Modified>2015-12-01T10:34:10.120</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.644</Modified>
+      <Modified>2015-12-01T10:34:10.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.677</Modified>
+      <Modified>2015-12-01T10:34:10.135</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.686</Modified>
+      <Modified>2015-12-01T10:34:10.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.691</Modified>
+      <Modified>2015-12-01T10:34:10.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.697</Modified>
+      <Modified>2015-12-01T10:34:10.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.705</Modified>
+      <Modified>2015-12-01T10:34:10.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.742</Modified>
+      <Modified>2015-12-01T10:34:10.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.749</Modified>
+      <Modified>2015-12-01T10:34:10.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.754</Modified>
+      <Modified>2015-12-01T10:34:10.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.758</Modified>
+      <Modified>2015-12-01T10:34:10.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.762</Modified>
+      <Modified>2015-12-01T10:34:10.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.767</Modified>
+      <Modified>2015-12-01T10:34:10.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.775</Modified>
+      <Modified>2015-12-01T10:34:10.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.778</Modified>
+      <Modified>2015-12-01T10:34:10.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.784</Modified>
+      <Modified>2015-12-01T10:34:10.213</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.789</Modified>
+      <Modified>2015-12-01T10:34:10.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.793</Modified>
+      <Modified>2015-12-01T10:34:10.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.874</Modified>
+      <Modified>2015-12-01T10:34:10.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.879</Modified>
+      <Modified>2015-12-01T10:34:10.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.885</Modified>
+      <Modified>2015-12-01T10:34:10.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
       <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.889</Modified>
+      <Modified>2015-12-01T10:34:10.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Themes\Generic.xbf">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\Themes\Generic.xbf">
       <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
-      <Modified>2015-11-29T17:38:52.892</Modified>
+      <Modified>2015-12-01T10:34:10.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
+    <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
       <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>
-      <Modified>2015-11-29T17:38:52.587</Modified>
+      <Modified>2015-12-01T10:34:10.104</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
