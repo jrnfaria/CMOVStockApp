@@ -20,9 +20,9 @@ namespace CMOVStockApp.Models
         [JsonProperty("Name")]
         public String name { get; set; }
         [JsonProperty("Min")]
-        public double min { get; set; }
+        public float min { get; set; }
         [JsonProperty("Max")]
-        public double max { get; set; }
+        public float max { get; set; }
         public double quote { get; set; }
 
         public Company(String sm, String nm)

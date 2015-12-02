@@ -27,7 +27,7 @@ namespace CMOVStockApp.Views
         private List<Company> companyList { get; set; }//all companies
 
         public List<Company> searchedList { get; set; }//companies in the search field
-       
+
         private ObservableCollection<Company> observingList { get; set; }//companies selected
 
 
@@ -70,7 +70,7 @@ namespace CMOVStockApp.Views
 
             foreach (Company cmp in companyList)
             {
-                if (cmp.symbol.IndexOf(searchText.Text)!=-1)
+                if (cmp.symbol.IndexOf(searchText.Text) != -1)
                 {
                     searchedList.Add(cmp);
                 }
@@ -91,5 +91,26 @@ namespace CMOVStockApp.Views
             }
         }
 
+        private void minTextBox(object sender, RoutedEventArgs e)
+        {
+            TextBox min = (TextBox)sender;
+            var item = ((TextBox)sender).DataContext;
+            Company cmp = (Company)item;
+            float value;
+            Single.TryParse(min.Text, out value);
+            cmp.min = value;
+            min.Text = value.ToString();
+        }
+
+        private void maxTextBox(object sender, RoutedEventArgs e)
+        {
+            TextBox max = (TextBox)sender;
+            var item = ((TextBox)sender).DataContext;
+            Company cmp = (Company)item;
+            float value;
+            Single.TryParse(max.Text, out value);
+            cmp.max = value;
+            max.Text = value.ToString();
+        }
     }
 }
