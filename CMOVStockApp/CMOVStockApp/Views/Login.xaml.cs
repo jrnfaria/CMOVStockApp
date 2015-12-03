@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -34,11 +35,27 @@ namespace CMOVStockApp.Views
         }
 
 
-        private void signInButtonClick(object sender, RoutedEventArgs e)
+        private async void signInButtonClick(object sender, RoutedEventArgs e)
         {
-            User.login(usernameTextBox.Text, passwordTextBox.Text);
-            this.Frame.Navigate(typeof(Menu));
+            User.LoginResponse rsp = await User.login(usernameTextBox.Text, passwordTextBox.Password); 
+            if(rsp!=null)
+            {
+                if(rsp.status=="ok")
+                {
+                    this.Frame.Navigate(typeof(Menu));
+                }
+                else
+                {
+                    var dialog = new Windows.UI.Popups.MessageDialog(rsp.body.response);
 
+                    await dialog.ShowAsync();
+                }
+            }
+            else
+            {
+                var dialog = new Windows.UI.Popups.MessageDialog("You dont have connection to the internet");
+                await dialog.ShowAsync();
+            }
         }
     }
 }
