@@ -29,7 +29,7 @@ namespace CMOVStockApp.Models
         {
             symbol = sm;
             name = nm;
-            min = -1;
+            min = 0;
             max = 1000000;
             quote = 0;
         }
@@ -112,6 +112,8 @@ namespace CMOVStockApp.Models
         }
     }
 
+   
+
     class YahooFinance
     {
         public static List<Company> observingCompanies = new List<Company>();
@@ -121,7 +123,7 @@ namespace CMOVStockApp.Models
         //mode=1->last month;per day
         //mode=2->last 6 months;per month
         //mode=3->last year; per month
-        public async Task<List<CompanyValue>> GetCompanyHistory(int mode, String symbol)
+        public static async Task<List<CompanyValue>> GetCompanyHistory(int mode, String symbol)
         {
             string content = null;
             List<CompanyValue> rsp = new List<CompanyValue>();
@@ -176,22 +178,22 @@ namespace CMOVStockApp.Models
         }
 
 
-        public async Task<List<Company>> getQuotes()
+        public async static Task<List<Company>> getQuotes()
         {
             String content = "";
-            String query="";
+            String query = "";
 
-            for(int i=0;i<observingCompanies.Count;i++)
+            for (int i = 0; i < observingCompanies.Count; i++)
             {
                 query += observingCompanies.ElementAt(i).symbol;
-                if(i< observingCompanies.Count-1)
+                if (i < observingCompanies.Count - 1)
                 {
                     query += ",";
                 }
             }
             using (HttpClient client = new HttpClient())
             {
-                using (HttpResponseMessage response = await client.GetAsync("http://finance.yahoo.com/d/quotes?f=sl1d1t1v&s="+query))
+                using (HttpResponseMessage response = await client.GetAsync("http://finance.yahoo.com/d/quotes?f=sl1d1t1v&s=" + query))
                 {
                     if (response.IsSuccessStatusCode)
                     {
@@ -202,11 +204,11 @@ namespace CMOVStockApp.Models
 
                         for (int i = 0; i < observingCompanies.Count; i++)
                         {
-                            observingCompanies.ElementAt(i).quote = Convert.ToDouble( quotes[i].Split(',')[1]);
+                            observingCompanies.ElementAt(i).quote = Convert.ToDouble(quotes[i].Split(',')[1]);
                         }
                         return observingCompanies;
                     }
-                    else {return observingCompanies; }
+                    else { return observingCompanies; }
 
                 }
             }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CMOVStockApp.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -32,9 +33,12 @@ namespace CMOVStockApp.Views
 
         }
 
-        private void signInButton_Click(object sender, RoutedEventArgs e)
+
+        private void signInButtonClick(object sender, RoutedEventArgs e)
         {
+            User.login(usernameTextBox.Text, passwordTextBox.Text);
             this.Frame.Navigate(typeof(Menu));
+
         }
     }
 }

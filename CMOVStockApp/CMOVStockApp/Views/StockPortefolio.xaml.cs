@@ -36,9 +36,7 @@ namespace CMOVStockApp.Views
 
         private async void loadQuotes()
         {
-            YahooFinance y = new YahooFinance();
-            await y.getQuotes();
-            
+            await YahooFinance.getQuotes();
         }
 
    

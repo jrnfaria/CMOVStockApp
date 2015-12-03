@@ -98,8 +98,11 @@ namespace CMOVStockApp.Views
             Company cmp = (Company)item;
             float value;
             Single.TryParse(min.Text, out value);
-            cmp.min = value;
-            min.Text = value.ToString();
+            if (value < cmp.max)
+            {
+                cmp.min = value;
+            }
+            min.Text = cmp.min.ToString();
         }
 
         private void maxTextBox(object sender, RoutedEventArgs e)
@@ -109,8 +112,11 @@ namespace CMOVStockApp.Views
             Company cmp = (Company)item;
             float value;
             Single.TryParse(max.Text, out value);
-            cmp.max = value;
-            max.Text = value.ToString();
+            if (value > cmp.min)
+            {
+                cmp.max = value;
+            }
+            max.Text = cmp.max.ToString();
         }
     }
 }
