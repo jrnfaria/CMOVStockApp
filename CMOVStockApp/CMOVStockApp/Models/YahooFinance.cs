@@ -15,9 +15,9 @@ namespace CMOVStockApp.Models
 {
     public class Company
     {
-        [JsonProperty("Symbol")]
+        [JsonProperty("SYMBOL")]
         public String symbol { get; set; }
-        [JsonProperty("Name")]
+        [JsonProperty("NAME")]
         public String name { get; set; }
         [JsonProperty("Min")]
         public float min { get; set; }

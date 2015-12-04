@@ -37,11 +37,13 @@ namespace CMOVStockApp.Views
 
         private async void signInButtonClick(object sender, RoutedEventArgs e)
         {
-            User.LoginResponse rsp = await User.login(usernameTextBox.Text, passwordTextBox.Password); 
-            if(rsp!=null)
+            User.SignResponse rsp = await User.signIn(usernameTextBox.Text, passwordTextBox.Password);
+            if (rsp != null)
             {
-                if(rsp.status=="ok")
+                if (rsp.status == "ok")
                 {
+                    User.MycompaniesResponse companies = await User.myCompanies(usernameTextBox.Text);
+                    YahooFinance.observingCompanies = companies.body.response;
                     this.Frame.Navigate(typeof(Menu));
                 }
                 else
@@ -57,5 +59,32 @@ namespace CMOVStockApp.Views
                 await dialog.ShowAsync();
             }
         }
+
+        private async void signUpButtonClick(object sender, RoutedEventArgs e)
+        {
+            User.SignResponse rsp = await User.signUp(usernameTextBox.Text, passwordTextBox.Password);
+            
+            if (rsp != null)
+            {
+                if (rsp.status == "ok")
+                {
+                    var dialog = new Windows.UI.Popups.MessageDialog("User registered");
+                    await dialog.ShowAsync();
+                }
+                else
+                {
+                    var dialog = new Windows.UI.Popups.MessageDialog(rsp.body.response);
+                    await dialog.ShowAsync();
+                
+                }
+            }
+            else
+            {
+                var dialog = new Windows.UI.Popups.MessageDialog("You dont have connection to the internet");
+                await dialog.ShowAsync();
+            }
+        }
+
     }
 }
+

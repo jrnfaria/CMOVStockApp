@@ -17,7 +17,7 @@ namespace CMOVStockApp.Models
             public String response { get; set; }
         }
 
-        public class LoginResponse
+        public class SignResponse
         {
             [JsonProperty("status")]
             public String status { get; set; }
@@ -25,10 +25,24 @@ namespace CMOVStockApp.Models
             public Body body { get; set; }
         }
 
-        public async static Task<LoginResponse> login(String username, String password)
+        public class MycompaniesResponse
+        {
+            [JsonProperty("status")]
+            public String status { get; set; }
+            [JsonProperty("body")]
+            public MycompaniesResponseBody body { get; set; }
+        }
+
+        public class MycompaniesResponseBody
+        {
+            [JsonProperty("response")]
+            public List<Company> response { get; set; }
+        }
+
+        public async static Task<SignResponse> signIn(String username, String password)
         {
             String content = "";
-            LoginResponse rsp=null;
+            SignResponse rsp=null;
 
             using (HttpClient client = new HttpClient())
             {
@@ -40,7 +54,7 @@ namespace CMOVStockApp.Models
                     if (response.IsSuccessStatusCode)
                     {
                         content = await response.Content.ReadAsStringAsync();//0,4
-                        rsp = JsonConvert.DeserializeObject<LoginResponse>(content);
+                        rsp = JsonConvert.DeserializeObject<SignResponse>(content);
                         return rsp;
                     }
 
@@ -50,22 +64,47 @@ namespace CMOVStockApp.Models
             }
         }
 
-        public async static Task<LoginResponse> myCompanies(String username, String password)
+        public async static Task<SignResponse> signUp(String username, String password)
         {
             String content = "";
-            LoginResponse rsp = null;
+            SignResponse rsp = null;
 
             using (HttpClient client = new HttpClient())
             {
                 StringContent body = new StringContent("{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}");
                 body.Headers.ContentType = new MediaTypeWithQualityHeaderValue("application/json");
-                using (HttpResponseMessage response = await client.PostAsync("http://localhost:8080/signin", body))
+                using (HttpResponseMessage response = await client.PostAsync("http://localhost:8080/signup", body))
                 {
 
                     if (response.IsSuccessStatusCode)
                     {
                         content = await response.Content.ReadAsStringAsync();//0,4
-                        rsp = JsonConvert.DeserializeObject<LoginResponse>(content);
+                        rsp = JsonConvert.DeserializeObject<SignResponse>(content);
+                        return rsp;
+                    }
+
+                    else { return rsp; }
+
+                }
+            }
+        }
+
+        public async static Task<MycompaniesResponse> myCompanies(String username)
+        {
+            String content = "";
+            MycompaniesResponse rsp = null;
+
+            using (HttpClient client = new HttpClient())
+            {
+                StringContent body = new StringContent("{\"username\":\"" + username + "\"}");
+                body.Headers.ContentType = new MediaTypeWithQualityHeaderValue("application/json");
+                using (HttpResponseMessage response = await client.PostAsync("http://localhost:8080/mycompanies", body))
+                {
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        content = await response.Content.ReadAsStringAsync();//0,4
+                        rsp = JsonConvert.DeserializeObject<MycompaniesResponse>(content);
                         return rsp;
                     }
 
