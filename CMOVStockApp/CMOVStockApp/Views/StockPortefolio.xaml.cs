@@ -1,5 +1,5 @@
 ﻿using CMOVStockApp.Models;
-using System;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.ApplicationModel.Background;
+using System;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -23,8 +25,11 @@ namespace CMOVStockApp.Views
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+
     public sealed partial class StockPortefolio : Page
     {
+        private DispatcherTimer dispatch;
+
         private ObservableCollection<Company> observingList { get; set; }//companies selected
 
         public StockPortefolio()
@@ -39,12 +44,20 @@ namespace CMOVStockApp.Views
             await YahooFinance.getQuotes();
         }
 
-   
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        private void loadQuotesTask(object sender, object e)
         {
             loadQuotes();
             observingList = new ObservableCollection<Company>(YahooFinance.observingCompanies);
             observingCompanyList.ItemsSource = observingList;
+        }
+   
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            loadQuotesTask(null,null);
+            dispatch = new DispatcherTimer();
+            dispatch.Interval = new TimeSpan(0, 0, 1);
+            dispatch.Tick += loadQuotesTask;
+            dispatch.Start();
         }
 
     }

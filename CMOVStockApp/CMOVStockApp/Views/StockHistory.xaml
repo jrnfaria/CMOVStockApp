@@ -26,10 +26,10 @@
         </Grid.RowDefinitions>
 
         <ComboBox ItemsSource="{x:Bind options}" x:Name="DecideCompany" Grid.Row="0" Grid.Column="1"/>
-        <Button x:Name="ButtonLastWeek" Content="Last week" HorizontalAlignment="Left"  RelativePanel.RightOf="DecideCompany" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastWeekClick" Grid.Row="0" Grid.Column="2"/>
-        <Button x:Name="ButtonLastMonth" Content="Last month" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLastWeek" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastMonthClick" Grid.Row="0" Grid.Column="3"/>
-        <Button x:Name="ButtonLast6Month" Content="Last 6 months" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLastMonth" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLast6MonthClick" Grid.Row="0" Grid.Column="4"/>
-        <Button x:Name="ButtonLastYear" Content="Last year" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLast6Month" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastYearClick" Grid.Row="0" Grid.Column="5"/>
+        <Button x:Name="ButtonLastWeek" Content="1W" MinWidth="50" HorizontalAlignment="Left"  RelativePanel.RightOf="DecideCompany" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastWeekClick" Grid.Row="0" Grid.Column="2"/>
+        <Button x:Name="ButtonLastMonth" Content="1M" MinWidth="50" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLastWeek" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastMonthClick" Grid.Row="0" Grid.Column="3"/>
+        <Button x:Name="ButtonLast6Month" Content="6M" MinWidth="50" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLastMonth" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLast6MonthClick" Grid.Row="0" Grid.Column="4"/>
+        <Button x:Name="ButtonLastYear" Content="1Y" MinWidth="50" HorizontalAlignment="Left"  RelativePanel.RightOf="ButtonLast6Month" Margin="10,0,0,0" RelativePanel.AlignBottomWith="DecideCompany" VerticalAlignment="Top" Click="buttonGetLastYearClick" Grid.Row="0" Grid.Column="5"/>
 
         <Charting:Chart x:Name="LineChart" VerticalAlignment="Top" RelativePanel.Below="DecideCompany" Height="390" Grid.RowSpan="3" Grid.ColumnSpan="7" Margin="0,80,51,0">
             <Charting:LineSeries Title="Stock history" Margin="0" IndependentValuePath="date" DependentValuePath="value" IsSelectionEnabled="True"/>
