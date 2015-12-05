@@ -22,47 +22,47 @@
     <AppXManifest Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-02T17:57:29.281</Modified>
+      <Modified>2015-12-05T10:45:50.719</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
-      <Modified>2015-11-30T22:49:11.734</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-11-30T22:49:11.738</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-30T22:49:11.741</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-30T22:49:11.743</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-30T22:49:11.745</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-30T22:49:11.747</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-30T22:49:11.749</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-30T22:49:11.751</Modified>
+      <Modified>2015-12-02T20:08:15.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\ClrCompression.dll">
       <PackagePath>ClrCompression.dll</PackagePath>
@@ -70,15 +70,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.exe">
       <PackagePath>CMOVStockApp.exe</PackagePath>
-      <Modified>2015-12-02T17:57:29.279</Modified>
+      <Modified>2015-12-05T10:45:50.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.xr.xml">
       <PackagePath>CMOVStockApp.xr.xml</PackagePath>
-      <Modified>2015-12-02T17:30:03.832</Modified>
+      <Modified>2015-12-05T10:45:44.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\entrypoint\CMOVStockApp.exe">
       <PackagePath>entrypoint\CMOVStockApp.exe</PackagePath>
-      <Modified>2015-12-02T17:57:27.723</Modified>
+      <Modified>2015-12-05T10:45:44.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -110,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2015-11-30T22:49:11.755</Modified>
+      <Modified>2015-12-02T20:08:16.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-02T17:57:28.469</Modified>
+      <Modified>2015-12-05T10:45:47.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -514,7 +514,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2015-11-30T22:49:11.907</Modified>
+      <Modified>2015-11-19T10:34:51.516</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization.dll">
       <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>

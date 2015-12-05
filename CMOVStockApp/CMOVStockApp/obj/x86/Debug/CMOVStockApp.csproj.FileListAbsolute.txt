@@ -556,11 +556,24 @@ C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\o
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf
 C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.csprojResolveAssemblyReference.cache
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.i.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.i.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.cs
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xaml
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xaml
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Login.xbf
+C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortefolio.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\ApplicationInsights.config
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\App.xbf
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Login.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Menu.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Shares.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockHistory.xbf
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortefolio.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\CMOVStockApp.xr.xml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\CMOVStockApp.exe
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\CMOVStockApp.pdb
@@ -851,24 +864,31 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Syst
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\System.Xml.XmlSerializer.dll
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\WinRTXamlToolkit.dll
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\WinRTXamlToolkit.Controls.DataVisualization.dll
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.csprojResolveAssemblyReference.cache
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.g.i.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.g.cs
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.i.cs
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.g.i.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.i.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.g.i.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.g.cs
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.i.cs
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.xaml
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.xaml
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.xbf
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.xbf
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.exe
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.pdb
@@ -942,17 +962,6 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Mult
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\WinRTXamlToolkit.pri.xml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\WinRTXamlToolkit.Controls.DataVisualization.pri.xml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\ApplicationInsights.config
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Properties\Default.rd.xml
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\SplashScreen.scale-200.png
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\StoreLogo.png
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\CMOVStockApp.xr.xml
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinMetadata\Windows.winmd
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\CMOVStockApp.exe
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\CMOVStockApp.pdb
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Microsoft.ApplicationInsights.dll
@@ -1064,6 +1073,17 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\System.Xml.XmlSerializer.dll
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit.dll
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization.dll
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\ApplicationInsights.config
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Properties\Default.rd.xml
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\SplashScreen.scale-200.png
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\StoreLogo.png
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\CMOVStockApp.xr.xml
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinMetadata\Windows.winmd
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf
@@ -1115,24 +1135,3 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\resources.pri
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Login.xbf
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.i.cs
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.cs
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xaml
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.csprojResolveAssemblyReference.cache
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.i.cs
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.cs
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.i.cs
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.cs
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xaml
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xaml
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xbf
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Login.xbf
-C:\Users\jrnf0\documents\visual studio 2015\Projects\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortefolio.xbf
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortefolio.xbf
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.i.cs
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.cs
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xaml
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xbf

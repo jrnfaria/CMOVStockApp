@@ -21,8 +21,8 @@
                             <ColumnDefinition  MinWidth="100" />
                         </Grid.ColumnDefinitions>
 
-                        <TextBlock Grid.Column="0" FontWeight="Bold" Text="Symbol" HorizontalAlignment="Center" />
-                        <TextBlock Grid.Column="1" FontWeight="Bold" Text="Name" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Column="0" FontWeight="Bold" Text="Name" HorizontalAlignment="Center" />
+                        <TextBlock Grid.Column="1" FontWeight="Bold" Text="Symbol" HorizontalAlignment="Center"/>
                         <TextBlock Grid.Column="2" FontWeight="Bold" Text="Min" HorizontalAlignment="Center"/>
                         <TextBlock Grid.Column="3" FontWeight="Bold" Text="Max" HorizontalAlignment="Center"/>
                     </Grid>
@@ -39,8 +39,8 @@
                             </Grid.ColumnDefinitions>
                             <TextBlock Text="{Binding name}" Grid.Column="0" HorizontalAlignment="Center" />
                             <TextBlock Text="{Binding symbol}" Grid.Column="1" HorizontalAlignment="Center"/>
-                            <TextBox  Text="{Binding min}" Grid.Column="2" IsReadOnly="False" HorizontalAlignment="Center"/>
-                            <TextBox Text="{Binding max}" Grid.Column="3" IsReadOnly="False" HorizontalAlignment="Center"/>
+                            <TextBox x:ConnectionId='11'  Text="{Binding min}" Grid.Column="2" IsReadOnly="False" HorizontalAlignment="Center"                        />
+                            <TextBox x:ConnectionId='12' Text="{Binding max}" Grid.Column="3" IsReadOnly="False" HorizontalAlignment="Center"                       />
                         </Grid>
 
                     </DataTemplate>
