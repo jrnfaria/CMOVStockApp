@@ -36,7 +36,7 @@ namespace CMOVStockApp.Views
 
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override  void OnNavigatedTo(NavigationEventArgs e)
         {
             options = new ObservableCollection<String>();
             if (YahooFinance.observingCompanies.Count > 0)

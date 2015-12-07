@@ -37,7 +37,7 @@ namespace CMOVStockApp.Views
 
         private async void signInButtonClick(object sender, RoutedEventArgs e)
         {
-            User.SignResponse rsp = await User.signIn(usernameTextBox.Text, passwordTextBox.Password);
+            User.Response rsp = await User.signIn(usernameTextBox.Text, passwordTextBox.Password);
             if (rsp != null)
             {
                 if (rsp.status == "ok")
@@ -55,14 +55,14 @@ namespace CMOVStockApp.Views
             }
             else
             {
-                var dialog = new Windows.UI.Popups.MessageDialog("You dont have connection to the internet");
+                var dialog = new Windows.UI.Popups.MessageDialog("Cant connect to server");
                 await dialog.ShowAsync();
             }
         }
 
         private async void signUpButtonClick(object sender, RoutedEventArgs e)
         {
-            User.SignResponse rsp = await User.signUp(usernameTextBox.Text, passwordTextBox.Password);
+            User.Response rsp = await User.signUp(usernameTextBox.Text, passwordTextBox.Password);
             
             if (rsp != null)
             {
@@ -80,7 +80,7 @@ namespace CMOVStockApp.Views
             }
             else
             {
-                var dialog = new Windows.UI.Popups.MessageDialog("You dont have connection to the internet");
+                var dialog = new Windows.UI.Popups.MessageDialog("Cant connect to server");
                 await dialog.ShowAsync();
             }
         }

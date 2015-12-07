@@ -55,7 +55,7 @@ namespace CMOVStockApp.Views
         {
             loadQuotesTask(null,null);
             dispatch = new DispatcherTimer();
-            dispatch.Interval = new TimeSpan(0, 0, 1);
+            dispatch.Interval = new TimeSpan(0, 0, 5);
             dispatch.Tick += loadQuotesTask;
             dispatch.Start();
         }
