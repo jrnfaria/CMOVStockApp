@@ -1,6 +1,7 @@
 ﻿using CMOVStockApp.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -27,6 +28,13 @@ namespace CMOVStockApp.Views
         {
             this.InitializeComponent();
             
+        }
+
+
+        private async void FormClosing(object sender, CancelEventArgs e)
+        {
+            var dialog = new Windows.UI.Popups.MessageDialog("User registered");
+            await dialog.ShowAsync();
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
