@@ -38,15 +38,9 @@ namespace CMOVStockApp.Views
             observingList = new ObservableCollection<Company>();
         }
 
-
-        private async void loadQuotes()
-        {
-            await YahooFinance.getQuotes();
-        }
-
         private void loadQuotesTask(object sender, object e)
         {
-            loadQuotes();
+            
             observingList = new ObservableCollection<Company>(YahooFinance.observingCompanies);
             observingCompanyList.ItemsSource = observingList;
         }
@@ -55,7 +49,7 @@ namespace CMOVStockApp.Views
         {
             loadQuotesTask(null,null);
             dispatch = new DispatcherTimer();
-            dispatch.Interval = new TimeSpan(0, 0, 5);
+            dispatch.Interval = new TimeSpan(0, 0, 2);
             dispatch.Tick += loadQuotesTask;
             dispatch.Start();
         }

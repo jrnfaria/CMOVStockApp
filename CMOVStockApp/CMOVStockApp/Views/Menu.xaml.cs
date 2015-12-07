@@ -24,18 +24,29 @@ namespace CMOVStockApp.Views
     /// </summary>
     public sealed partial class Menu : Page
     {
+        private DispatcherTimer dispatch;
+
         public Menu()
         {
             this.InitializeComponent();
             
         }
 
-
-        private async void FormClosing(object sender, CancelEventArgs e)
-        {
-            var dialog = new Windows.UI.Popups.MessageDialog("User registered");
-            await dialog.ShowAsync();
+        private void loadQuotesTask(object sender, object e)
+        { 
+            CheckLimits.checkIntervals();
         }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            loadQuotesTask(null, null);
+            dispatch = new DispatcherTimer();
+            dispatch.Interval = new TimeSpan(0, 0, 5);
+            dispatch.Tick += loadQuotesTask;
+            dispatch.Start();
+        }
+
+
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
         {

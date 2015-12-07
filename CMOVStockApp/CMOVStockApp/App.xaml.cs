@@ -160,5 +160,7 @@ namespace CMOVStockApp
             //TODO: Save application state and stop any background activity
             deferral.Complete();
         }
+
+
     }
 }

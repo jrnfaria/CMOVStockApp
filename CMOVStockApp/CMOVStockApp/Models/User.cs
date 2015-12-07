@@ -75,26 +75,33 @@ namespace CMOVStockApp.Models
 
         public async static Task<Response> signUp(String username, String password)
         {
-            String content = "";
-            Response rsp = null;
-
-            using (HttpClient client = new HttpClient())
+            try
             {
-                StringContent body = new StringContent("{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}");
-                body.Headers.ContentType = new MediaTypeWithQualityHeaderValue("application/json");
-                using (HttpResponseMessage response = await client.PostAsync("http://localhost:8080/signup", body))
+                String content = "";
+                Response rsp = null;
+
+                using (HttpClient client = new HttpClient())
                 {
-
-                    if (response.IsSuccessStatusCode)
+                    StringContent body = new StringContent("{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}");
+                    body.Headers.ContentType = new MediaTypeWithQualityHeaderValue("application/json");
+                    using (HttpResponseMessage response = await client.PostAsync("http://localhost:8080/signup", body))
                     {
-                        content = await response.Content.ReadAsStringAsync();//0,4
-                        rsp = JsonConvert.DeserializeObject<Response>(content);
-                        return rsp;
+
+                        if (response.IsSuccessStatusCode)
+                        {
+                            content = await response.Content.ReadAsStringAsync();//0,4
+                            rsp = JsonConvert.DeserializeObject<Response>(content);
+                            return rsp;
+                        }
+
+                        else { return rsp; }
+
                     }
-
-                    else { return rsp; }
-
                 }
+            }
+            catch(Exception)
+            {
+                return null;
             }
         }
 

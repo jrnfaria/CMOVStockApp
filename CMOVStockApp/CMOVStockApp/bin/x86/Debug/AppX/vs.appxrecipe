@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-12-07T11:02:41.755</Modified>
+      <Modified>2015-12-07T11:50:53.586</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.exe">
       <PackagePath>CMOVStockApp.exe</PackagePath>
-      <Modified>2015-12-07T11:02:41.753</Modified>
+      <Modified>2015-12-07T11:50:53.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\CMOVStockApp.xr.xml">
       <PackagePath>CMOVStockApp.xr.xml</PackagePath>
@@ -78,7 +78,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\entrypoint\CMOVStockApp.exe">
       <PackagePath>entrypoint\CMOVStockApp.exe</PackagePath>
-      <Modified>2015-12-07T11:02:40.759</Modified>
+      <Modified>2015-12-07T11:50:52.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-12-06T22:15:12.971</Modified>
+      <Modified>2015-12-07T11:49:05.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
