@@ -79,7 +79,7 @@ namespace CMOVStockApp.Views
         }
 
         //adds company to observing list 8activated by add button in modal window)
-        private void addCompany(ContentDialog sender, ContentDialogButtonClickEventArgs args)
+        private async void addCompany(ContentDialog sender, ContentDialogButtonClickEventArgs args)
         {
             int test = searchList.SelectedIndex;
             Company cmp = searchedList.ElementAt(searchList.SelectedIndex);
@@ -89,9 +89,10 @@ namespace CMOVStockApp.Views
                 YahooFinance.observingCompanies.Add(cmp);
                 observingCompanyList.ItemsSource = observingList;
             }
+            await User.addCompanies();
         }
 
-        private void minTextBox(object sender, RoutedEventArgs e)
+        private async void minTextBox(object sender, RoutedEventArgs e)
         {
             TextBox min = (TextBox)sender;
             var item = ((TextBox)sender).DataContext;
@@ -103,9 +104,10 @@ namespace CMOVStockApp.Views
                 cmp.min = value;
             }
             min.Text = cmp.min.ToString();
+            await User.addCompanies();
         }
 
-        private void maxTextBox(object sender, RoutedEventArgs e)
+        private async void maxTextBox(object sender, RoutedEventArgs e)
         {
             TextBox max = (TextBox)sender;
             var item = ((TextBox)sender).DataContext;
@@ -117,6 +119,7 @@ namespace CMOVStockApp.Views
                 cmp.max = value;
             }
             max.Text = cmp.max.ToString();
+            await User.addCompanies();
         }
     }
 }

@@ -47,7 +47,8 @@ namespace CMOVStockApp.Views
    
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            loadQuotesTask(null,null);
+            observingCompanyList.ItemsSource = YahooFinance.observingCompanies;
+           loadQuotesTask(null,null);
             dispatch = new DispatcherTimer();
             dispatch.Interval = new TimeSpan(0, 0, 2);
             dispatch.Tick += loadQuotesTask;
