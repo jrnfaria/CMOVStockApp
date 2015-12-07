@@ -28,6 +28,8 @@ namespace CMOVStockApp.Views
     public sealed partial class StockHistory : Page
     {
         private ObservableCollection<String> options { get; set; }
+        private const int DATE_WITH_MONTH = 0;
+        private const int DATE_WITH_DAY_AND_MONTH = 1;
         public StockHistory()
         {
             options = new ObservableCollection<String>();
@@ -52,6 +54,7 @@ namespace CMOVStockApp.Views
             {
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await YahooFinance.GetCompanyHistory(0, DecideCompany.SelectedItem as String);
+                changeDatesOnStocks(stockHistory, DATE_WITH_DAY_AND_MONTH);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
             }
         }
@@ -62,6 +65,7 @@ namespace CMOVStockApp.Views
             {
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await YahooFinance.GetCompanyHistory(1, DecideCompany.SelectedItem as String);
+                changeDatesOnStocks(stockHistory, DATE_WITH_DAY_AND_MONTH);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
             }
         }
@@ -72,6 +76,7 @@ namespace CMOVStockApp.Views
             {
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await YahooFinance.GetCompanyHistory(2, DecideCompany.SelectedItem as String);
+                changeDatesOnStocks(stockHistory, DATE_WITH_MONTH);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
             }
         }
@@ -82,7 +87,29 @@ namespace CMOVStockApp.Views
             {
                 List<CompanyValue> stockHistory = new List<CompanyValue>();
                 stockHistory = await YahooFinance.GetCompanyHistory(3, DecideCompany.SelectedItem as String);
+                changeDatesOnStocks(stockHistory, DATE_WITH_MONTH);
                 (LineChart.Series[0] as LineSeries).ItemsSource = stockHistory;
+            }
+        }
+
+        private void changeDatesOnStocks(List<CompanyValue> stockHistory, int type)
+        {
+            for (int i = 0; i < stockHistory.Count; i++)
+            {
+                string[] tokens = stockHistory[i].date.Split('-');
+                string year = tokens[0];
+                string month = tokens[1];
+                string day = tokens[2];
+                switch(type)
+                {
+                    case DATE_WITH_MONTH:
+                        stockHistory[i].date = month;
+                        break;
+                    case DATE_WITH_DAY_AND_MONTH:
+                        stockHistory[i].date = day + "-" + month;
+                        break;
+                }
+                
             }
         }
     }
