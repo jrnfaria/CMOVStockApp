@@ -40,7 +40,6 @@ namespace CMOVStockApp.Views
 
         private void loadQuotesTask(object sender, object e)
         {
-            
             observingList = new ObservableCollection<Company>(YahooFinance.observingCompanies);
             observingCompanyList.ItemsSource = observingList;
         }
@@ -48,7 +47,7 @@ namespace CMOVStockApp.Views
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             observingCompanyList.ItemsSource = YahooFinance.observingCompanies;
-           loadQuotesTask(null,null);
+            loadQuotesTask(null,null);
             dispatch = new DispatcherTimer();
             dispatch.Interval = new TimeSpan(0, 0, 2);
             dispatch.Tick += loadQuotesTask;
