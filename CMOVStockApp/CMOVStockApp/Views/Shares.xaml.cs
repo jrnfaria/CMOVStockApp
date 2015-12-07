@@ -83,19 +83,32 @@ namespace CMOVStockApp.Views
         {
             int test = searchList.SelectedIndex;
             Company cmp = searchedList.ElementAt(searchList.SelectedIndex);
-            if (!YahooFinance.observingCompanies.Contains(cmp))
+            Boolean found = false;
+
+            for (int i = 0; i < YahooFinance.observingCompanies.Count; i++)
+            {
+                if (YahooFinance.observingCompanies.ElementAt(i).name == cmp.name)
+                {
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found)
             {
                 observingList.Add(cmp);
                 YahooFinance.observingCompanies.Add(cmp);
                 observingCompanyList.ItemsSource = observingList;
             }
+
+
             await User.addCompanies();
         }
 
         private async void minTextBox(object sender, RoutedEventArgs e)
         {
             TextBox min = (TextBox)sender;
-            var item = ((TextBox)sender).DataContext;
+            var item = min.DataContext;
             Company cmp = (Company)item;
             float value;
             Single.TryParse(min.Text, out value);
@@ -110,7 +123,7 @@ namespace CMOVStockApp.Views
         private async void maxTextBox(object sender, RoutedEventArgs e)
         {
             TextBox max = (TextBox)sender;
-            var item = ((TextBox)sender).DataContext;
+            var item = max.DataContext;
             Company cmp = (Company)item;
             float value;
             Single.TryParse(max.Text, out value);
@@ -119,6 +132,25 @@ namespace CMOVStockApp.Views
                 cmp.max = value;
             }
             max.Text = cmp.max.ToString();
+            await User.addCompanies();
+        }
+
+        private async void removeCompany(object sender, RoutedEventArgs e)
+        {
+            Button button = (Button)sender;
+            var item = button.DataContext;
+            Company cmp = (Company)item;
+
+            for (int i = 0; i < YahooFinance.observingCompanies.Count; i++)
+            {
+                if (YahooFinance.observingCompanies.ElementAt(i).name == cmp.name)
+                {
+                    YahooFinance.observingCompanies.RemoveAt(i);
+                    observingList.RemoveAt(i);
+                    observingCompanyList.ItemsSource = observingList;
+                    break;
+                }
+            }
             await User.addCompanies();
         }
     }

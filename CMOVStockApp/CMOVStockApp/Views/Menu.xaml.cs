@@ -39,9 +39,10 @@ namespace CMOVStockApp.Views
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+            SplitViewFrame.Navigate(typeof(StockPortefolio));
             loadQuotesTask(null, null);
             dispatch = new DispatcherTimer();
-            dispatch.Interval = new TimeSpan(0, 0, 5);
+            dispatch.Interval = new TimeSpan(0, 0, 2);
             dispatch.Tick += loadQuotesTask;
             dispatch.Start();
         }
