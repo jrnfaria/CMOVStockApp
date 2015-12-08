@@ -23,7 +23,7 @@ namespace CMOVStockApp.Views
 
         private void loadQuotesTask(object sender, object e)
         { 
-            Observer.checkIntervals();
+            PushNotifications.checkIntervals();
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)

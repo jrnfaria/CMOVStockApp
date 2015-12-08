@@ -9,7 +9,7 @@ using Windows.Networking.PushNotifications;
 
 namespace CMOVStockApp.Models
 {
-    class Observer
+    class PushNotifications
     {
         private static PushNotificationChannel channel = null;
 
@@ -39,7 +39,7 @@ namespace CMOVStockApp.Models
                 {
                     SendPushNotification(1, YahooFinance.observingCompanies.ElementAt(i).name);
 
-                    YahooFinance.observingCompanies.ElementAt(i).max = 1000000;
+                    YahooFinance.observingCompanies.ElementAt(i).max = 10000;
                 }
             }
         }

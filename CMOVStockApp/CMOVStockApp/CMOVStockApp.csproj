@@ -101,7 +101,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\Observer.cs" />
+    <Compile Include="Models\PushNotifications.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\YahooFinance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
