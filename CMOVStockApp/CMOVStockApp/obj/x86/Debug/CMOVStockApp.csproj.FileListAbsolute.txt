@@ -571,7 +571,6 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Appl
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\App.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Login.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Menu.xbf
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Shares.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockHistory.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortefolio.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\CMOVStockApp.xr.xml
@@ -870,8 +869,6 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\View
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.g.i.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.g.cs
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.i.cs
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.g.i.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.i.cs
@@ -880,13 +877,11 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xaml
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xbf
-C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xbf
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\XamlSaveStateFile.xml
@@ -1704,3 +1699,9 @@ C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Co
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\CMOVStockApp.exe
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\CMOVStockApp.pdb
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Core\resources.pri
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Stocks.xbf
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.csprojResolveAssemblyReference.cache
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Stocks.g.i.cs
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Stocks.g.cs
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Stocks.xaml
+C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Stocks.xbf

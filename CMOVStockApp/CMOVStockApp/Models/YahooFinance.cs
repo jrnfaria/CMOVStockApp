@@ -1,13 +1,9 @@
 ﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using Windows.Data.Json;
 
@@ -30,7 +26,7 @@ namespace CMOVStockApp.Models
             symbol = sm;
             name = nm;
             min = 0;
-            max = 1000000;
+            max = 10000;
             quote = 0;
         }
     }
@@ -51,68 +47,56 @@ namespace CMOVStockApp.Models
     {
         public static List<Company> companies = new List<Company>();
 
+        public static string companyName = "";
+
+        public static string companySymbol = "";
+
         public static Task<List<Company>> getList()
         {
             return Task.Run(() =>
             {
                 if (companies.Count < 1)
                 {
-                    companies.Add(new Company("IBM", "IBM"));
-                    companies.Add(new Company("MSFT", "Microsoft"));
-                    companies.Add(new Company("CSCO", "Cisco"));
-                    companies.Add(new Company("AMZN", "Amazon"));
-                    companies.Add(new Company("HPQ", "HP"));
-                    companies.Add(new Company("GOOG", "Google"));
-                    companies.Add(new Company("AAPL", "Apple"));
-                    companies.Add(new Company("ORCL", "Oracle"));
+                    companies.Add(new Company("AMZN", "Amazon.com, Inc."));
+                    companies.Add(new Company("AAPL", "Apple Inc."));
+                    companies.Add(new Company("CSCO", "Cisco Systems, Inc."));
+                    companies.Add(new Company("GOOG", "Alphabet Inc."));
+                    companies.Add(new Company("MSFT", "Microsoft Corporation"));
+                    companies.Add(new Company("ORCL", "Oracle Corporation"));
                 }
 
                 return companies;
             });
         }
 
-        public static async void getCompanyName(string companySymbol)
+        public static Task<List<Company>> getSearchList(string companySymbol)
         {
-            var client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync(new Uri("http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + companySymbol + "%22)%0A%09%09&diagnostics=true&env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json"));
-
-            var jsonString = await response.Content.ReadAsStringAsync();
-
-            JsonObject root = Windows.Data.Json.JsonValue.Parse(jsonString).GetObject();
-            JsonObject query = root.GetNamedObject("query");
-            JsonObject results = query.GetNamedObject("results");
-            JsonObject quote = results.GetNamedObject("quote");
-            if (quote.GetNamedValue("Name").ValueType == JsonValueType.Null)
+            return Task.Run(async () =>
             {
-                Debug.WriteLine("Error: company symbol does not exist!");
-            }
-            else
-            {
-                string name = quote.GetNamedString("Name");
-                Debug.WriteLine(name);
-            }
+                List<Company> companies = new List<Company>();
+
+                var client = new HttpClient();
+                HttpResponseMessage response = await client.GetAsync(new Uri("http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + companySymbol + "%22)%0A%09%09&diagnostics=true&env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json"));
+
+                var jsonString = await response.Content.ReadAsStringAsync();
+
+                JsonObject root = Windows.Data.Json.JsonValue.Parse(jsonString).GetObject();
+                JsonObject query = root.GetNamedObject("query");
+                JsonObject results = query.GetNamedObject("results");
+                JsonObject quote = results.GetNamedObject("quote");
+                if (quote.GetNamedValue("Name").ValueType == JsonValueType.Null)
+                {
+                    
+                }
+                else
+                {
+                    companies.Add(new Company(companySymbol, quote.GetNamedString("Name")));
+                }
+
+                return companies;
+            });
         }
     }
-
-    class StockPriceLoad
-    {
-        public static async void getLastTradePrice(string companySymbol)
-        {
-            var client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync(new Uri("http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + companySymbol + "%22)%0A%09%09&diagnostics=true&env=http%3A%2F%2Fdatatables.org%2Falltables.env&format=json"));
-            var jsonString = await response.Content.ReadAsStringAsync();
-
-            JsonObject root = Windows.Data.Json.JsonValue.Parse(jsonString).GetObject();
-            JsonObject query = root.GetNamedObject("query");
-            JsonObject results = query.GetNamedObject("results");
-            JsonObject quote = results.GetNamedObject("quote");
-
-            string lastTradePriceOnly = quote.GetNamedString("LastTradePriceOnly");
-            Debug.WriteLine(lastTradePriceOnly);
-        }
-    }
-
-   
 
     class YahooFinance
     {

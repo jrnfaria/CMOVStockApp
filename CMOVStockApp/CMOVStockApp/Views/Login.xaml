@@ -10,7 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="LoginScreen">
         <TextBlock x:Name="stocksApp" HorizontalAlignment="Center" Margin="10,10,0,0" TextWrapping="Wrap" Text="Stocks App" VerticalAlignment="Top" Height="100" Width="340" SelectionChanged="textBlock_SelectionChanged" FontSize="48" TextAlignment="Center"/>
         <Button x:Name="signInButton" Content="Sign In" HorizontalAlignment="Center" Margin="10,214,0,0" VerticalAlignment="Top" Width="340" Click="signInButtonClick"/>
-        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" Margin="10,598,0,0" VerticalAlignment="Top" Width="340" Click="signUpButtonClick"/>
+        <Button x:Name="signUpButton" Content="Sign Up" HorizontalAlignment="Center" Margin="15,251,5,0" VerticalAlignment="Top" Width="340" Click="signUpButtonClick"/>
         <TextBox x:Name="usernameTextBox" HorizontalAlignment="Center" Margin="10,140,0,0" TextWrapping="Wrap" PlaceholderText="Username" VerticalAlignment="Top" Width="340"/>
         <PasswordBox x:Name="passwordTextBox" HorizontalAlignment="Center" Margin="10,177,0,0"  PlaceholderText="Password"  VerticalAlignment="Top" RenderTransformOrigin="-0.704,0.688" Width="340"/>
 

@@ -101,7 +101,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\CheckLimits.cs" />
+    <Compile Include="Models\Observer.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\YahooFinance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -111,8 +111,8 @@
     <Compile Include="Views\Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Shares.xaml.cs">
-      <DependentUpon>Shares.xaml</DependentUpon>
+    <Compile Include="Views\Stocks.xaml.cs">
+      <DependentUpon>Stocks.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\StockHistory.xaml.cs">
       <DependentUpon>StockHistory.xaml</DependentUpon>
@@ -151,7 +151,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Shares.xaml">
+    <Page Include="Views\Stocks.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
