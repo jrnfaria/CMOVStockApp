@@ -50,7 +50,7 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button x:Name="AddStock" Content="Add Company" RelativePanel.AlignHorizontalCenterWith="observingCompanyList" RelativePanel.Below="observingCompanyList" Height="Auto" MinWidth="400"  MaxWidth="1000"  VerticalAlignment="Top" Click="addStock"  />
+            <Button x:Name="AddStock" Content="Add Company" RelativePanel.AlignHorizontalCenterWith="observingCompanyList" RelativePanel.Below="observingCompanyList" Height="Auto" MinWidth="400"  MaxWidth="1000"  VerticalAlignment="Top" HorizontalAlignment="Center" Click="addStock"  />
 
         </RelativePanel>
 

@@ -111,14 +111,14 @@
     <Compile Include="Views\Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Stocks.xaml.cs">
-      <DependentUpon>Stocks.xaml</DependentUpon>
+    <Compile Include="Views\Companies.xaml.cs">
+      <DependentUpon>Companies.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\StockHistory.xaml.cs">
       <DependentUpon>StockHistory.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\StockPortefolio.xaml.cs">
-      <DependentUpon>StockPortefolio.xaml</DependentUpon>
+    <Compile Include="Views\StockPortfolio.xaml.cs">
+      <DependentUpon>StockPortfolio.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -151,7 +151,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Stocks.xaml">
+    <Page Include="Views\Companies.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -159,7 +159,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\StockPortefolio.xaml">
+    <Page Include="Views\StockPortfolio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

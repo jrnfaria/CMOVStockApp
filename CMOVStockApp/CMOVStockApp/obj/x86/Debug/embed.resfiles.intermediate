@@ -1,6 +1,6 @@
 App.xbf
+Views\Companies.xbf
 Views\Login.xbf
 Views\Menu.xbf
 Views\StockHistory.xbf
-Views\StockPortefolio.xbf
-Views\Stocks.xbf
+Views\StockPortfolio.xbf

@@ -17,12 +17,12 @@
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE825;"
                     Width="50" Height="50" Background="Transparent" Click="goToAddStockPage"/>
-                        <TextBlock Text="Shares" FontSize="18" VerticalAlignment="Center" />
+                        <TextBlock Text="Companies" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE10F;"
                         Width="50" Height="50" Background="Transparent" Click="goToStockPortefolio"/>
-                        <TextBlock Text="Values" FontSize="18" VerticalAlignment="Center" />
+                        <TextBlock Text="Portfolio" FontSize="18" VerticalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Orientation="Horizontal">
                         <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE12F;"
