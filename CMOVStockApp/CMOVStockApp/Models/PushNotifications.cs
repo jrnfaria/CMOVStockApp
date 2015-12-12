@@ -1,11 +1,13 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Windows.Networking.PushNotifications;
+using Windows.UI.Notifications;
 
 namespace CMOVStockApp.Models
 {
@@ -20,10 +22,15 @@ namespace CMOVStockApp.Models
 
         public static async void checkIntervals()
         {
-            CreatePushNotificationChannel();
+            if(channelUri == null)
+            {
+                CreatePushNotificationChannel();
+            }
 
-            GetAccessToken();
-
+            if(accessToken == null)
+            {
+                GetAccessToken();
+            }
 
             await YahooFinance.getQuotes();
 
@@ -31,17 +38,22 @@ namespace CMOVStockApp.Models
             {
                 if(YahooFinance.observingCompanies.ElementAt(i).quote < YahooFinance.observingCompanies.ElementAt(i).min)
                 {
-                    SendPushNotification(0, YahooFinance.observingCompanies.ElementAt(i).name);
+                    SendTilePushNotification(0, YahooFinance.observingCompanies.ElementAt(i).name);
 
                     YahooFinance.observingCompanies.ElementAt(i).min = 0;
                 }
                 else if (YahooFinance.observingCompanies.ElementAt(i).quote > YahooFinance.observingCompanies.ElementAt(i).max)
                 {
-                    SendPushNotification(1, YahooFinance.observingCompanies.ElementAt(i).name);
+                    SendTilePushNotification(1, YahooFinance.observingCompanies.ElementAt(i).name);
 
                     YahooFinance.observingCompanies.ElementAt(i).max = 10000;
                 }
             }
+
+            Random rnd = new Random();
+            int companyIndex = rnd.Next(0, YahooFinance.observingCompanies.Count);
+
+            SendTilePushNotification(YahooFinance.observingCompanies.ElementAt(companyIndex).quote, YahooFinance.observingCompanies.ElementAt(companyIndex).name);
         }
 
         public static async void CreatePushNotificationChannel()
@@ -69,14 +81,14 @@ namespace CMOVStockApp.Models
             accessToken = (string)obj.GetValue("access_token");
         }
 
-        public static async void SendPushNotification(int limit, string companyName)
+        public static async void SendToastPushNotification(int limit, string companyName)
         {
             if(channelUri != null && accessToken != null)
             {
                 // if limit == 0 -> min limit surpassed
                 // if limit == 1 -> max limit surpassed
 
-                await Task.Delay(2000);
+                await Task.Delay(1000);
 
                 string xml = "";
 
@@ -94,7 +106,32 @@ namespace CMOVStockApp.Models
 
                 StringContent xmlContent = new StringContent(xml);
                 xmlContent.Headers.Add("X-WNS-Type", "wns/toast");
-                xmlContent.Headers.Add("X-WNS-RquestForStatus", "true");
+                xmlContent.Headers.ContentType = new MediaTypeHeaderValue("text/xml");
+                xmlContent.Headers.ContentLength = xml.Length;
+
+                HttpRequestMessage message = new HttpRequestMessage();
+                message.Method = new HttpMethod("POST");
+                message.Content = xmlContent;
+                message.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken + "=");
+                message.RequestUri = new Uri(channelUri, UriKind.Absolute);
+
+                HttpClient httpClient = new HttpClient();
+                HttpResponseMessage httpReponseMessage = await httpClient.SendAsync(message);
+            }
+        }
+
+        public static async void SendTilePushNotification(double quote, string companyName)
+        {
+            if (channelUri != null && accessToken != null)
+            {
+                await Task.Delay(1000);
+
+                string xml = "";
+
+                xml = String.Format("<tile><visual><binding template=\"TileMedium\"><group><subgroup><text hint-style=\"caption\">" + companyName + "</text><text hint-style=\"captionsubtle\">" + quote + "</text></subgroup></group></binding><binding template=\"TileWide\"><group><subgroup><text hint-style=\"caption\">" + companyName + "</text><text hint-style=\"captionsubtle\">" + quote + "</text></subgroup></group></binding></visual></tile>");
+
+                StringContent xmlContent = new StringContent(xml);
+                xmlContent.Headers.Add("X-WNS-Type", "wns/tile");
                 xmlContent.Headers.ContentType = new MediaTypeHeaderValue("text/xml");
                 xmlContent.Headers.ContentLength = xml.Length;
 
