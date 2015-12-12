@@ -38,13 +38,13 @@ namespace CMOVStockApp.Models
             {
                 if(YahooFinance.observingCompanies.ElementAt(i).quote < YahooFinance.observingCompanies.ElementAt(i).min)
                 {
-                    SendTilePushNotification(0, YahooFinance.observingCompanies.ElementAt(i).name);
+                    SendToastPushNotification(0, YahooFinance.observingCompanies.ElementAt(i).name);
 
                     YahooFinance.observingCompanies.ElementAt(i).min = 0;
                 }
                 else if (YahooFinance.observingCompanies.ElementAt(i).quote > YahooFinance.observingCompanies.ElementAt(i).max)
                 {
-                    SendTilePushNotification(1, YahooFinance.observingCompanies.ElementAt(i).name);
+                    SendToastPushNotification(1, YahooFinance.observingCompanies.ElementAt(i).name);
 
                     YahooFinance.observingCompanies.ElementAt(i).max = 10000;
                 }
@@ -94,13 +94,13 @@ namespace CMOVStockApp.Models
 
                 if (limit == 0)
                 {
-                    xml = String.Format("<toast launch=\"\"><visual lang=\"en-US\"><binding template=\"ToastImageAndText01\"><image id=\"1\" src=\"\"/><text id=\"1\">" + companyName + ": minimum value limit surpassed!</text></binding></visual></toast>");
+                    xml = String.Format("<toast launch=\"\"><visual lang=\"en-US\"><binding template=\"ToastImageAndText01\"><image id=\"1\" src=\"\"/><text id=\"1\">" + companyName + ":\nMinimum value limit surpassed!</text></binding></visual></toast>");
                 }
                 else
                 {
                     if (limit == 1)
                     {
-                        xml = String.Format("<toast launch=\"\"><visual lang=\"en-US\"><binding template=\"ToastImageAndText01\"><image id=\"1\" src=\"\"/><text id=\"1\">" + companyName + ": maximum value limit surpassed!</text></binding></visual></toast>");
+                        xml = String.Format("<toast launch=\"\"><visual lang=\"en-US\"><binding template=\"ToastImageAndText01\"><image id=\"1\" src=\"\"/><text id=\"1\">" + companyName + ":\nMaximum value limit surpassed!</text></binding></visual></toast>");
                     }
                 }
 
@@ -147,4 +147,3 @@ namespace CMOVStockApp.Models
         }
     }
 }
-
