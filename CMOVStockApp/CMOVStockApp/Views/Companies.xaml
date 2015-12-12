@@ -11,21 +11,17 @@
 
         <RelativePanel HorizontalAlignment="Center" >
             <ListView ItemsSource="{Binding observingList}"
-          VerticalAlignment="Center" HorizontalAlignment="Stretch" x:Name="observingCompanyList" Margin="0,0,0,0" >
+          VerticalAlignment="Center" HorizontalAlignment="Stretch" x:Name="observingCompanyList" Margin="0,0,0,0" SelectionChanged="OpenMinMaxDialog">
                 <ListView.Header>
                     <Grid HorizontalAlignment="Stretch">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition MinWidth="125" />
                             <ColumnDefinition MinWidth="75" />
-                            <ColumnDefinition MinWidth="25" />
-                            <ColumnDefinition MinWidth="25" />
                             <ColumnDefinition MinWidth="15" />
                         </Grid.ColumnDefinitions>
 
                         <TextBlock Grid.Column="0" FontWeight="Bold" Text="Name" HorizontalAlignment="Center" />
                         <TextBlock Grid.Column="1" FontWeight="Bold" Text="Symbol" HorizontalAlignment="Center"/>
-                        <TextBlock Grid.Column="2" FontWeight="Bold" Text="Min" HorizontalAlignment="Center"/>
-                        <TextBlock Grid.Column="3" FontWeight="Bold" Text="Max" HorizontalAlignment="Center"/>
                         <TextBlock Grid.Column="4" FontWeight="Bold" Text="" HorizontalAlignment="Center"/>
                     </Grid>
                 </ListView.Header>
@@ -34,16 +30,12 @@
                     <DataTemplate x:DataType="models:Company">
                         <Grid>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition MinWidth="125"  />
-                                <ColumnDefinition MinWidth="75" />
-                                <ColumnDefinition MinWidth="25" />
-                                <ColumnDefinition MinWidth="25" />
-                                <ColumnDefinition MinWidth="15" />
+                                <ColumnDefinition Width="125"  />
+                                <ColumnDefinition Width="75" />
+                                <ColumnDefinition Width="75" />
                             </Grid.ColumnDefinitions>
-                            <TextBlock Text="{Binding name}" Grid.Column="0" HorizontalAlignment="Center" />
-                            <TextBlock Text="{Binding symbol}" Grid.Column="1" HorizontalAlignment="Center"/>
-                            <TextBox  Text="{Binding min}" Grid.Column="2" IsReadOnly="False" HorizontalAlignment="Center" LostFocus="minTextBox" />
-                            <TextBox Text="{Binding max}" Grid.Column="3" IsReadOnly="False" HorizontalAlignment="Center" LostFocus="maxTextBox"/>
+                            <TextBlock Text="{Binding name}" Grid.Column="0" HorizontalAlignment="Center" TextWrapping="WrapWholeWords" />
+                            <TextBlock Text="{Binding symbol}" Grid.Column="1" HorizontalAlignment="Center" TextWrapping="WrapWholeWords"/>
                             <Button x:Name="removeButton" Content="Remove" Grid.Column="4" HorizontalAlignment="Center" Click="removeCompany"/>
                         </Grid>
 
@@ -75,10 +67,29 @@
                                     <ColumnDefinition Width="125" />
                                 </Grid.ColumnDefinitions>
                                 <TextBlock Text="{x:Bind symbol}" Grid.Column="0" HorizontalAlignment="Center" FontWeight="Bold"/>
-                                <TextBlock Text="{x:Bind name}" Grid.Column="1" HorizontalAlignment="Center"  FontWeight="Bold"/>
+                                <TextBlock Text="{x:Bind name}" Grid.Column="1" HorizontalAlignment="Center"  FontWeight="Bold" TextWrapping="WrapWholeWords"/>
                             </Grid>
                         </DataTemplate>
                     </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </ContentDialog>
+
+        <ContentDialog x:Name="MinMaxDialog"
+                        VerticalAlignment="Stretch"
+                        Title="Value interval"
+                        PrimaryButtonText="OK"
+                        IsPrimaryButtonEnabled="{Binding IsChecked, Mode=OneWay}"
+                        MaxWidth="{Binding ActualWidth, ElementName=pageRoot}" PrimaryButtonClick="reloadList">
+            <StackPanel>
+                <ListView
+        HorizontalAlignment="Center" VerticalAlignment="Center"  x:Name="MinMaxList" SelectionMode="None">
+                    <RelativePanel>
+                        <TextBlock Text="Min" Grid.Column="0" HorizontalAlignment="Center" FontWeight="Bold" x:Name="minText" MinWidth="65" Width="auto"/>
+                        <TextBlock Text="Max" Grid.Column="1" HorizontalAlignment="Center"  FontWeight="Bold" x:Name="maxText" MinWidth="65" Width="auto" RelativePanel.RightOf="minText" />
+                        <TextBox  Text="{Binding min}" x:Name="minBlock" Grid.Column="0" IsReadOnly="False" HorizontalAlignment="Center" LostFocus="minTextBox" RelativePanel.Below="minText"/>
+                        <TextBox  Text="{Binding max}" x:Name="maxBlock" Grid.Column="1" IsReadOnly="False"  HorizontalAlignment="Center" LostFocus="maxTextBox" RelativePanel.RightOf="minBlock" RelativePanel.Below="maxText" RelativePanel.AlignHorizontalCenterWith="maxText"/>
+                    </RelativePanel>
                 </ListView>
             </StackPanel>
         </ContentDialog>

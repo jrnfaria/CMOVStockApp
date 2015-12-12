@@ -1129,9 +1129,7 @@ C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Ap
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\App.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Login.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Menu.xbf
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Shares.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockHistory.xbf
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortefolio.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\CMOVStockApp.xr.xml
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\CMOVStockApp.exe
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\CMOVStockApp.pdb
@@ -1429,25 +1427,17 @@ C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Vi
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.g.cs
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.g.i.cs
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.g.cs
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.i.cs
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.g.cs
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.g.i.cs
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.g.cs
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.i.cs
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.g.cs
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.xaml
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xaml
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xaml
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xaml
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.xaml
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xaml
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\App.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Login.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Menu.xbf
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Shares.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockHistory.xbf
-C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortefolio.xbf
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.exe
 C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\CMOVStockApp.pdb
@@ -1705,3 +1695,13 @@ C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\View
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.g.cs
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.xaml
 C:\Users\João Sá\Git\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.xbf
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\Companies.xbf
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\bin\x86\Debug\Views\StockPortfolio.xbf
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Companies.g.i.cs
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Companies.g.cs
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.g.i.cs
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.g.cs
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Companies.xaml
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.xaml
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\Companies.xbf
+C:\Users\jrnf0\Documents\CMOVStockApp\CMOVStockApp\CMOVStockApp\obj\x86\Debug\Views\StockPortfolio.xbf

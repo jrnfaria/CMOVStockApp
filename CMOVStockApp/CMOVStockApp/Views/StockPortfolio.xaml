@@ -17,9 +17,9 @@
             <ListView.Header>
                 <Grid HorizontalAlignment="Stretch">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition MinWidth="125" Width="auto" />
-                        <ColumnDefinition MinWidth="75" Width="auto" />
-                        <ColumnDefinition MinWidth="75" Width="auto" />
+                        <ColumnDefinition Width="125"  />
+                        <ColumnDefinition Width="75" />
+                        <ColumnDefinition Width="75"  />
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Grid.Column="0" FontWeight="Bold" Text="Symbol" HorizontalAlignment="Center" />
@@ -32,15 +32,15 @@
                 <DataTemplate x:DataType="models:Company">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition MinWidth="125" Width="auto"  />
-                            <ColumnDefinition MinWidth="75" Width="auto" />
-                            <ColumnDefinition MinWidth="75" Width="auto" />
+                            <ColumnDefinition Width="125" />
+                            <ColumnDefinition Width="75" />
+                            <ColumnDefinition Width="75" />
                         </Grid.ColumnDefinitions>
-                        <TextBlock Text="{Binding name}" Grid.Column="0" HorizontalAlignment="Center" />
+                        <TextBlock Text="{Binding name}" Grid.Column="0" HorizontalAlignment="Center" TextWrapping="WrapWholeWords" />
                         <TextBlock Text="{Binding symbol}" Grid.Column="1" HorizontalAlignment="Center"/>
                         <TextBlock Text="{Binding quote}" Grid.Column="2" HorizontalAlignment="Center"/>
                     </Grid>
-                    
+
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

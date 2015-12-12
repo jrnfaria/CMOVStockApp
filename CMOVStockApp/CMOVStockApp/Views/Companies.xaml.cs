@@ -23,7 +23,7 @@ namespace CMOVStockApp.Views
 
         private ObservableCollection<Company> observingList { get; set; }//companies selected
 
-
+        private Company cmp;
         public Shares()
         {
             this.InitializeComponent();
@@ -104,8 +104,6 @@ namespace CMOVStockApp.Views
         private async void minTextBox(object sender, RoutedEventArgs e)
         {
             TextBox min = (TextBox)sender;
-            var item = min.DataContext;
-            Company cmp = (Company)item;
             float value;
             Single.TryParse(min.Text, out value);
             if (value < cmp.max)
@@ -119,8 +117,6 @@ namespace CMOVStockApp.Views
         private async void maxTextBox(object sender, RoutedEventArgs e)
         {
             TextBox max = (TextBox)sender;
-            var item = max.DataContext;
-            Company cmp = (Company)item;
             float value;
             Single.TryParse(max.Text, out value);
             if (value > cmp.min)
@@ -148,6 +144,26 @@ namespace CMOVStockApp.Views
                 }
             }
             await User.addCompanies();
+        }
+        private async void OpenMinMaxDialog(object sender, SelectionChangedEventArgs e)
+        {
+            ListView lvi = (ListView)sender;
+            if (lvi.SelectedIndex > -1)
+            {
+               
+            var item = lvi.SelectedIndex;
+                cmp = observingList.ElementAt(item);
+                minBlock.Text = cmp.min.ToString();
+                maxBlock.Text = cmp.max.ToString();
+            
+            await MinMaxDialog.ShowAsync();
+            }
+        }
+
+        private void reloadList(ContentDialog sender, ContentDialogButtonClickEventArgs args)
+        {
+            observingCompanyList.ItemsSource = observingList;
+            observingCompanyList.SelectedIndex = -1;
         }
     }
 }

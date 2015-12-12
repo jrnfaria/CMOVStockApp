@@ -3,9 +3,9 @@
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="IsChecked" />
     <RootPropertyPathName Name="ActualWidth" />
-    <RootPropertyPathName Name="observingList" />
     <RootPropertyPathName Name="max" />
     <RootPropertyPathName Name="min" />
+    <RootPropertyPathName Name="observingList" />
     <RootPropertyPathName Name="symbol" />
     <RootPropertyPathName Name="name" />
     <RootPropertyPathName Name="YahooFinance" />
@@ -46,6 +46,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="MinWidth" />
       <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -70,8 +71,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Text" />
       <RootProperty Name="IsReadOnly" />
-      <RootEvent Name="TextChanged" />
       <RootEvent Name="LostFocus" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PasswordBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -100,12 +101,12 @@
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Children" />
-      <RootMethod Name="GetAlignHorizontalCenterWith" />
-      <RootMethod Name="SetAlignHorizontalCenterWith" />
-      <RootMethod Name="GetBelow" />
-      <RootMethod Name="SetBelow" />
       <RootMethod Name="GetRightOf" />
       <RootMethod Name="SetRightOf" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+      <RootMethod Name="GetAlignHorizontalCenterWith" />
+      <RootMethod Name="SetAlignHorizontalCenterWith" />
       <RootMethod Name="GetAlignBottomWith" />
       <RootMethod Name="SetAlignBottomWith" />
     </RootType>
@@ -124,13 +125,16 @@
       <RootProperty Name="ElementName" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="ItemsSource" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="Items" />
+      <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Header" />
       <RootProperty Name="ItemContainerTransitions" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
